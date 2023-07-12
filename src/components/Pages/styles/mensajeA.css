@@ -1,0 +1,19 @@
+.img {
+    justify-content: center;
+    margin-top: 175px;
+    display: flex;
+}
+
+.logo {
+    justify-content: center;
+    margin-top: 25px;
+    display: flex;
+}
+
+.text {
+    justify-content: center;
+    margin-top: 25px;
+    display: flex;
+    font-size: 30px;
+    color: black;
+}
