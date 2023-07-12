@@ -6,8 +6,8 @@ import './components/Pages/styles/style.css';
 import './components/Pages/styles/informes.css';
 import './components/Pages/styles/registroC.css';
 import './components/Pages/styles/mensajeA.css';
-import { MensajeAcceso } from './components/Pages/MensajeAcceso';
 import { RegistroCorreo } from './components/Pages/RegistroCorreo';
+// import { MensajeAcceso } from './components/Pages/MensajeAcceso';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
