@@ -1,5 +1,5 @@
 import { Button } from "./components/atoms/Button"
-import { Navbar } from "./components/organisms/Navbar"
+import { Navbar } from "./components/organismos/Navbar"
 import { Search } from "./components/atoms/Search"
 import { Select } from "./components/atoms/Select"
 import imgPerson from './assets/imgPerson.svg'

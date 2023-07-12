@@ -1,7 +1,7 @@
-import { Button } from "./atoms/Button"
-import { Navbar } from "./organisms/Navbar"
-import img1 from '../assets/1.png';
-import img2 from '../assets/2.png';
+import { Button } from "../atoms/Button"
+import { Navbar } from "../organismos/Navbar"
+import img1 from '../../assets/1.png';
+import img2 from '../../assets/2.png';
 // import img3 from '../assets/3.png';
 // import img4 from '../assets/Captura.png';
 
@@ -26,11 +26,20 @@ export const PrincipalEmpresa = () => {
             <Button TextName="Publicar un oferta"/>
 
             <div className="card2 mt-5">
-                <div className="card-image">
-                    <figure className="image is-4by3">
-                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
-                    </figure>
-                </div>
+                <ol className="ol">
+                    <li className="list">
+                        Publica tu vacante
+                        <p>Crea facilmente tu oferta de trabajo</p>
+                    </li>
+                    <li className="list">
+                        Revisa las postulaciones 
+                        <p>Selecciona a los mejores candidatos</p>
+                    </li>
+                    <li className="list">
+                        Contrata 
+                        <p>Encuentra al candidato que mejor se adapte al perfil buscado </p>    
+                    </li>
+                </ol>
             </div>
     
             <h2 className="title2 mt-5">
