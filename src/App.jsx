@@ -1,5 +1,4 @@
 import { Route, Routes } from "react-router-dom"
-import { PrincipalEmpleado } from "./components/Pages/Empleado/PrincipalEmpleado"
 import { PrincipalEmpresa } from "./components/Pages/PrincipalEmpresa"
 import { RegistroEmpresa } from "./components/Pages/RegistroEmpresa"
 import { InformesButton } from "./components/Pages/InformesButton"
