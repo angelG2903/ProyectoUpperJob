@@ -2,6 +2,7 @@ import { Button } from "../atoms/button/Button"
 import { Input } from "../atoms/input/Input"
 import { Select } from "../atoms/select/Select"
 import { TextArea } from "../atoms/textArea/TextArea"
+import './styles/informes.css';
 
 
 export const InformesButton = () => {

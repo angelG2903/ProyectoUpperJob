@@ -32,6 +32,7 @@
     margin-bottom: 10px;
 }
 
+/* Registro Empresa */
 .car{
     text-align: center;
     height: 284px;
@@ -66,3 +67,23 @@
     color: black;
 }
 
+/* End */
+
+.imgs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inf {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.fot {
+    width: 100% !important;
+    position: absolute;
+    bottom: 0;
+}
