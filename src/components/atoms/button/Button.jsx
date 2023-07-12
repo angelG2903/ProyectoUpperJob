@@ -1,7 +1,7 @@
 import './style.css'
 
-export const Button = ({ TextName }) => {
+export const Button = ({ TextName, style }) => {
   return (
-    <button className="button is-rounded is-fullwidth isBlack mt-3">{ TextName }</button>
+    <button className={`button is-rounded is-fullwidth isBlack ${ style }`}>{ TextName }</button>
   )
 }
