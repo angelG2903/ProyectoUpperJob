@@ -9,5 +9,6 @@ import { PrincipalEmpresa } from './components/Pages/PrincipalEmpresa.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <PrincipalEmpresa />
+    {/* <App /> */}
   </React.StrictMode>,
 )

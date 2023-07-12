@@ -1,7 +1,7 @@
-import { Button } from "./components/atoms/Button"
-import { Navbar } from "./components/organismos/Navbar"
-import { Search } from "./components/atoms/Search"
-import { Select } from "./components/atoms/Select"
+import { Button } from "./components/atoms/button/Button"
+import { Navbar } from "./components/organisms/navBar/Navbar"
+import { Search } from "./components/atoms/search/Search"
+import { Select } from "./components/atoms/select/Select"
 import imgPerson from './assets/imgPerson.svg'
 import { Card } from "./components/molecules/Card"
 

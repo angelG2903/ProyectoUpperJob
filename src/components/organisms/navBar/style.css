@@ -1,0 +1,27 @@
+.navbar-burgerNone {
+    margin-left: 0 !important;
+}
+
+.navbar-itemNone{
+    padding: 0.5rem 0rem !important;
+}
+
+.buttonPr {
+    background-color: #007CFF !important;
+    color: white !important;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+@media (min-width: 1024px) {
+    .buttM {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .buttMnone {
+        display: none !important;
+    }
+}
