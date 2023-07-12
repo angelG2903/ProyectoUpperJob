@@ -32,9 +32,7 @@
     margin-bottom: 10px;
 }
 
-<<<<<<< HEAD:src/style.css
 /* Registro Empresa */
-=======
 .car{
     text-align: center;
     height: 284px;
@@ -68,7 +66,8 @@
     width: 99px;
     color: black;
 }
->>>>>>> ab79d88128912142d6e3f38ac0d178dce298e675:src/components/Pages/styles/style.css
+
+/* End */
 
 .imgs {
     display: flex;
