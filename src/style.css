@@ -58,4 +58,19 @@
     margin-bottom: 10px;
 }
 
+.car{
+    border: solid black 1px;
+}
+
+.cardF {
+    border: solid black 1px;
+    width: 62%;
+}
+
+.ic {
+    float: right;
+    width: 100px;
+    top: -100px;
+    border: solid black 1px;
+}
 

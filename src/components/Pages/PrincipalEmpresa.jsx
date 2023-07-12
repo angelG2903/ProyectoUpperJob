@@ -2,7 +2,7 @@ import { Button } from "../atoms/Button"
 import { Navbar } from "../organismos/Navbar"
 import img1 from '../../assets/1.png';
 import img2 from '../../assets/2.png';
-// import img3 from '../assets/3.png';
+import img3 from '../../assets/3.png';
 // import img4 from '../assets/Captura.png';
 
 export const PrincipalEmpresa = () => {
@@ -23,7 +23,7 @@ export const PrincipalEmpresa = () => {
                 de seleccion de forma rapída y fácil
             </h3>
 
-            <Button TextName="Publicar un oferta"/>
+            <Button TextName="Publicar una oferta"/>
 
             <div className="card2 mt-5">
                 <ol className="ol">
@@ -64,13 +64,23 @@ export const PrincipalEmpresa = () => {
 
             <h2 className="h2 mt-4">Atrae al candidato que necesitas</h2>
 
-            <div className="card">
-                <div className="card-image">
-                    <figure className="image is-4by3">
-                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
-                    </figure>
+            <div className="car">
+                <div className="cardF">
+                    <img src={img3} alt="Placeholder image"/>
+                </div>
+                <div className="ic">
+                    <p>
+                    <i className="fa-regular fa-lightbulb"></i>
+                        Verifica sus habilidades
+                    </p>
+                    <p>
+                    <i className="fa-solid fa-users"></i>
+                    Organiza tus candidatos
+                    </p>
+                        
                 </div>
             </div>
+
 
             <Button TextName="Comienza ahora"/>
         </>
