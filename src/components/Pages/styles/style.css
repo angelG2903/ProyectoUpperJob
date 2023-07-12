@@ -1,0 +1,68 @@
+.img {
+    margin-top: -45px;
+}
+
+.subtitle {
+    line-height: 19.36px;
+    text-align: center;
+    font-size: 16px;
+    color: #070A12;
+}
+
+.title2 {
+    font-size: 25px;
+    text-align: center;
+    line-height: 30.26px;
+    font-weight: bold;
+    color: #111D2D;
+
+}
+
+.subtitle2 {
+    text-align: center;
+    line-height: 19.36px;
+    margin-bottom: 10px;
+}
+
+.h2 {
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(39, 39, 39);
+    margin-bottom: 10px;
+}
+
+.car{
+    text-align: center;
+    height: 284px;
+}
+
+.cardF {
+    height: 100%;
+    width: 62%;
+}
+
+.ic {
+    margin-left: auto;
+    color: #0B131E;
+    margin-top: -45%;
+    width: 125px;
+}
+
+.ic i{
+    width: 20px;
+    margin-right: 90%;
+    margin-top: 5px;
+}
+
+.ic p {
+    line-height: 19.36px;
+    margin-left: auto;
+    margin-top: -25px;
+    text-align: left;
+    font-size: 16px;
+    height: 48px;
+    width: 99px;
+    color: black;
+}
+

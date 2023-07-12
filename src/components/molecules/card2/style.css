@@ -1,0 +1,29 @@
+.card2 {
+    width: 300px;
+    height: 302px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 0px 5px 5px 0px ;
+}
+
+.ol {
+    padding-top: 31px;
+    height: 302px;
+    width: 300px;
+}
+
+.list{
+    width: 250px;
+    height: 70px;
+    margin-left: 45px;
+    padding-bottom: 80px;
+    color:  #0F213D;
+    font-size: 18px;
+}
+
+.list p {
+    font-size: 16px;
+    line-height: 18px;
+    color: #0B0B1F91;
+}
