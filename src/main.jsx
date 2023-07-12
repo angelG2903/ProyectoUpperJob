@@ -8,6 +8,7 @@ import { PrincipalEmpresa } from './components/PrincipalEmpresa.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <PrincipalEmpresa />
+    {/* <PrincipalEmpresa /> */}
+    <App />
   </React.StrictMode>,
 )

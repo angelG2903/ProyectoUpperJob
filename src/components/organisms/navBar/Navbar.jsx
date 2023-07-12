@@ -1,5 +1,7 @@
 import { useState } from 'react'
-import UpperJob from '../../assets/UpperJob.svg'
+import UpperJob from '../../../assets/UpperJob.svg'
+import './style.css'
+
 
 export const Navbar = () => {
 
