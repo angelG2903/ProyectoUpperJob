@@ -4,65 +4,74 @@ import img1 from '../../assets/1.png';
 import img2 from '../../assets/2.png';
 import img3 from '../../assets/3.png';
 import { Card2 } from "../molecules/card2/Card2";
+import footer from '../../assets/footer.svg'
 // import img4 from '../assets/Captura.png';
 
 export const PrincipalEmpresa = () => {
     return (
         <>
-            <Navbar/>
+            <section className="margenes">
+                <Navbar/>
+            </section>
 
-            <figure className="image is-5by4 img">
-                <img src={img1}></img>
-            </figure>
+                <figure className="image is-5by4 img">
+                    <img src={img1}></img>
+                    <div className="titleImg">
+                        <h2>¡Únete a nosotros y publica tus ofertas !</h2>
+                    </div>
+                </figure>
 
-            <h3 className="subtitle mt-4">
-                Ahorra costos y tiempo en tus procesos <br />
-                de seleccion de forma rapída y fácil
-            </h3>
+                <section className="margenes">
+                <h3 className="subtitle mt-4">
+                    Ahorra costos y tiempo en tus procesos <br />
+                    de seleccion de forma rapída y fácil
+                </h3>
 
-            <Button TextName="Publicar una oferta"/>
+                <Button TextName="Publicar una oferta"/>
 
-            <Card2/>
-    
-            <h2 className="title2 mt-5">
-                Publica tu oferta <br /> 
-                en Upperjob
-            </h2>
+                <Card2/>
+        
+                <h2 className="title2 mt-5">
+                    Publica tu oferta <br /> 
+                    en Upperjob
+                </h2>
 
-            <Button TextName="Encontrar candidatos"/>
+                <Button TextName="Encontrar candidatos"/>
 
-            <h2 className="subtitle2 mt-5 "> 
-                Localiza los mejores candidatos en la <br />
-                web de empleo en Latinoamérica 
-            </h2>
+                <h2 className="subtitle2 mt-5 "> 
+                    Localiza los mejores candidatos en la <br />
+                    web de empleo en Latinoamérica 
+                </h2>
 
-            <figure className="image is-4by3 img2">
-                <img src={img2}></img>
-            </figure>
+                <figure className="image is-4by3 img2">
+                    <img src={img2}></img>
+                </figure>
 
-            <h2 className="h2 mt-4">Atrae al candidato que necesitas</h2>
+                <h2 className="h2 mt-4">Atrae al candidato que necesitas</h2>
 
-            <div className="car">
-                <div className="cardF">
-                    <img src={img3} alt="Placeholder image"/>
+                <div className="car">
+                    <div className="cardF">
+                        <img src={img3} alt="Placeholder image"/>
+                    </div>
+                    <div className="ic">
+
+                        <i className="fa-regular fa-lightbulb"></i>
+                        <p>
+                            Verifica sus habilidades
+                        </p>
+
+                        <i className="fa-solid fa-users"></i>
+                        <p>
+                            Organiza tus candidatos
+                        </p>
+                            
+                    </div>
                 </div>
-                <div className="ic">
 
-                    <i className="fa-regular fa-lightbulb"></i>
-                    <p>
-                        Verifica sus habilidades
-                    </p>
+                <Button TextName="Comienza ahora"/>
+            </section>
 
-                    <i className="fa-solid fa-users"></i>
-                    <p>
-                        Organiza tus candidatos
-                    </p>
-                        
-                </div>
-            </div>
-
-
-            <Button TextName="Comienza ahora"/>
+            <img src={footer}/>
         </>
     )
 }

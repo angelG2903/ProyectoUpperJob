@@ -2,7 +2,6 @@ import { Route, Routes } from "react-router-dom"
 import { PrincipalEmpresa } from "./components/Pages/PrincipalEmpresa"
 import { RegistroEmpresa } from "./components/Pages/RegistroEmpresa"
 import { InformesButton } from "./components/Pages/InformesButton"
-import { LoginEmpresa } from "./components/Pages/Empresa/LoginEmpresa"
 
 function App() {
 
@@ -10,7 +9,7 @@ function App() {
     <>
       <Routes>
         {/* <Route path="/" element={ <PrincipalEmpleado /> } /> */}
-        <Route path="/" element={ <LoginEmpresa /> } />
+        <Route path="/" element={ <InformesButton /> } />
 
         <Route path="empresa" element={ <PrincipalEmpresa /> }/>
         <Route path="registro" element={ <RegistroEmpresa /> }/>
