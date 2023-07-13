@@ -3,6 +3,7 @@ import { Button } from "../atoms/button/Button"
 import { Select } from "../atoms/select/Select"
 import { TextArea } from "../atoms/textArea/TextArea"
 import { FormInformes } from "../molecules/form/FormInformes"
+import footer from '../../assets/footer.svg'
 import './styles/informes.css'
 
 export const InformesButton = () => {
@@ -20,6 +21,8 @@ export const InformesButton = () => {
                 <TextArea/>
                 <Button TextName="Enviar" style={"mt-5"}/>
             </section>
+
+            <img className='fot' src={footer}/>
 
         </>
     )
