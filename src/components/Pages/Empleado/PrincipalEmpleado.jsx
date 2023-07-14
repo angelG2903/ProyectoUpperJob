@@ -11,7 +11,7 @@ export const PrincipalEmpleado = () => {
     <>
         <Navbar />
         <h1 className="title1 mt-4">Encuentra tu primer empleo</h1>
-        <Search />
+        <Search TextName="Search"/>
         <Select TextName="Categoría"/>
         <Select TextName="País"/>
         <Button TextName="Buscar"/>

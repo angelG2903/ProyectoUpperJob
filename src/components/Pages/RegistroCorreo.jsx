@@ -1,31 +1,39 @@
+import { IconoArrow } from "../atoms/icono/IconoArrow"
+import footer from '../../assets/footer.svg'
+import './styles/registroC.css'
+
 export const RegistroCorreo = () => {
     return (
         <>
-            <i className="fa-solid fa-arrow-left fa-2xl arrow"></i>
+            <section className="margenes">
+                <IconoArrow/>
 
-            <div className="registro">
-                <br />
-                <div className="title">
-                    <p className="text">Create your account </p>
+                <div className="registro">
+                    <br />
+                    <div className="title">
+                        <p className="text">Create your account </p>
+                    </div>
+
+                    <form className="form f1">
+                        <p >Full name</p>
+                        <input className="input" type="text"/>
+
+                        <p >Email</p>
+                        <input className="input" type="email"/>
+
+                        <p >Password</p>
+                        <input className="input" type="password"/>
+
+                        <p >Retype password</p>
+                        <input className="input" type="password"/>
+                    </form>
+
+                    <button className="button is-link btn">Submit</button>
+
                 </div>
+            </section>
 
-                <form className="form">
-                    <p >Full name</p>
-                    <input className="input" type="text"/>
-
-                    <p >Email</p>
-                    <input className="input" type="email"/>
-
-                    <p >Password</p>
-                    <input className="input" type="password"/>
-
-                    <p >Retype password</p>
-                    <input className="input" type="password"/>
-                </form>
-
-                <button className="button is-link">Submit</button>
-
-            </div>
+            <img className='fot' src={footer}/>
 
         </>
     )

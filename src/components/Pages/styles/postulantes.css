@@ -1,0 +1,88 @@
+.contenedor {
+    display: flex;    
+}
+
+.btn2 {
+    color: white !important;
+    background: #0B131E;
+    margin-left: auto;
+}
+
+.ti1{
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.ic1 {
+    color: rgb(109, 253, 205);
+}
+
+.ti2 {
+    margin: 5px;
+    font-weight: bold;
+    font-family: 18px;
+}
+
+.ca {
+    width: 326px;
+    height: 201px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    padding: 15px 0px 15px 0px;
+    box-shadow: 3px 3px 5px 0px;
+}
+
+.ti3 {
+    margin-top: 15px;
+    display: flex;
+    margin-left: 15px;
+}
+
+.ti3 i {
+    margin: 2px;
+}
+
+.ti3 h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+.ca hr {
+    background-color: rgb(109, 253, 205);
+}
+
+.par {
+    padding: 0px 0px 0px 15px;
+
+    color: black;
+}
+
+.par p {
+    font-size: 16px;
+    line-height: 16px;
+    text-align: left;
+}
+
+.buttonsFinal {
+    display: flex;
+    justify-content: center;
+}
+
+.btnF {
+    width: 100px;
+    color: black !important;
+    margin-right: 50px;
+    
+}
+
+.btnF2 {
+    margin-right: 10px;
+    color: black !important;  
+}
+
