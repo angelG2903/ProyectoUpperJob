@@ -5,12 +5,13 @@ import { TextArea } from "../atoms/textArea/TextArea"
 import { FormInformes } from "../molecules/form/FormInformes"
 import footer from '../../assets/footer.svg'
 import './styles/informes.css'
+import { IconoArrow } from "../atoms/icono/IconoArrow"
 
 export const InformesButton = () => {
     return (
         <>
             <section className="margenes">
-                <Link to={"/"}> <i className="fa-solid fa-arrow-left fa-2xl arrow"></i> </Link>
+                <Link to={"/"}> <IconoArrow/></Link>
                 
                 <p className="tit">
                     Pedir informes
@@ -18,7 +19,7 @@ export const InformesButton = () => {
 
                 <FormInformes />
                 <Select TextName="Tipo de consulta"/>
-                <TextArea/>
+                <TextArea TextName="Dirección"/>
                 <Button TextName="Enviar" style={"mt-5"}/>
             </section>
 

@@ -1,6 +1,6 @@
 import { Button } from "../../atoms/button/Button"
 
-export const Plan = ({ Title, Text}) => {
+export const Plan = ({ Title}) => {
     return (
         <>
             <div className="card">
@@ -13,6 +13,7 @@ export const Plan = ({ Title, Text}) => {
                         Costo semestral primer usuario <br />
                         Costo anual primer usuario <br />
                     </p>
+                    <br />
                     <Button TextName="$200.00 mnx"/>
                 </div>
         </>

@@ -1,0 +1,21 @@
+.log {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.log img {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.log p{
+    margin-bottom: 40px;
+    font-family: 18px;
+    font-weight: bold;
+    color: #02011E;
+}
+
+.inp {
+    width: 150px;
+    margin-bottom: 20px;
+}

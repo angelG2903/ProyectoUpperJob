@@ -1,8 +1,8 @@
 import { Plan } from "../../molecules/plan/Plan";
 import { Navbar } from "../../organisms/navBar/Navbar";
 import whatsApp from '../../../assets/WhatsApp.png';
-import footer from '../../../assets/footer.svg'
-import '../styles/contratarP.css'
+import footer from '../../../assets/footer.svg';
+import '../styles/contratarP.css';
 
 export default function ContratarPlan() {
     return (
