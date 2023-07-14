@@ -9,13 +9,11 @@ function App() {
   return (
     <>
       <Routes>
-        {/* <Route path="/" element={ <PrincipalEmpleado /> } /> */}
-        <Route path="/" element={ <InformesButton /> } />
+        <Route path="/" element={ <FormularioEmpleado /> }/>
 
         <Route path="empresa" element={ <PrincipalEmpresa /> }/>
         <Route path="registro" element={ <RegistroEmpresa /> }/>
         <Route path="informes" element={ <InformesButton /> }/>
-        <Route path="registro/empleado" element={ <FormularioEmpleado /> }/>
 
       </Routes>
     </>
