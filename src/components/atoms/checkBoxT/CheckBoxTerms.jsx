@@ -5,7 +5,7 @@ export const CheckBoxTerms = () => {
     <>
         <label className="checkbox checkm">
             <input type="checkbox"/>
-            I agree to the <a>terms and conditions</a>
+            &ensp;I agree to the <a>&ensp;terms and conditions</a>
         </label>
     </>
   )

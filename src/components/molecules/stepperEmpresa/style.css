@@ -1,0 +1,29 @@
+.progress-bar2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.progress-bar-ti2 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 35px;
+}
+
+.selects2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.medium-select {
+    width: 145px;
+}
+
+.step-c2 {
+    margin-top: 35px;
+    margin-bottom: 80px;
+}
+
+.step-c3 {
+    margin-top: 35px;
+    margin-bottom: 130px;
+}
