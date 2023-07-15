@@ -1,0 +1,50 @@
+.cardPos {
+    width: 291px;
+    height: 408px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    box-shadow: 0px 4px 4px 0px #00000073;
+
+}
+
+.cardImage {
+    height: 209px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+    background: #69D3FF;
+    border-radius: 40px 40px 0px 0px;
+}
+
+.cardImage img {
+    margin-top: 40px;
+}
+
+.cardPos h2{
+    text-align: center;
+    font-size: 20px;
+}
+
+.cardPos p {
+    text-align: center;
+    font-size: 14px;
+    color: #CBC5C5;
+    margin-bottom: 15px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.redes i {
+    margin: 5px;
+    color: black;
+}
+
+.textFinal {
+    text-align: center;
+}

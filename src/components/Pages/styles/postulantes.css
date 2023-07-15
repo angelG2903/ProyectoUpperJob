@@ -28,6 +28,7 @@
 .ca {
     width: 326px;
     height: 201px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -35,6 +36,10 @@
     margin-bottom: 30px;
     padding: 15px 0px 15px 0px;
     box-shadow: 3px 3px 5px 0px;
+}
+
+.fa-display {
+    color: rgb(109, 253, 205);
 }
 
 .ti3 {
@@ -59,7 +64,6 @@
 
 .par {
     padding: 0px 0px 0px 15px;
-
     color: black;
 }
 
@@ -72,13 +76,13 @@
 .buttonsFinal {
     display: flex;
     justify-content: center;
+
 }
 
 .btnF {
     width: 100px;
     color: black !important;
-    margin-right: 50px;
-    
+    margin-right: 50px;   
 }
 
 .btnF2 {

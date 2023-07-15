@@ -1,0 +1,31 @@
+.box {
+    box-shadow: 0 5px 20px  rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    height: 269px;
+    width: 340px;
+}
+
+.fa-circle-check {
+    margin-bottom: 20px;
+    font-size: 100px;
+    color: #3B8FE5;
+}
+
+.box h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.btnB {
+    background-color: #3B8FE5;
+    color: white;
+}
+
+.footerImg {
+    margin-top: 580px;
+}
+
+
