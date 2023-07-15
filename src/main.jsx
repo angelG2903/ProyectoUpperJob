@@ -12,9 +12,9 @@ import { PostulantesDetalles } from './components/Pages/Empresa/PostulantesDetal
 ReactDOM.createRoot(document.getElementById('root')).render(
 
   <BrowserRouter>
-    {/* <App/> */}
+    <App/>
     {/* <PostulantesDetalles/> */}
-    <PostulantesF/>
+    {/* <PostulantesF/> */}
   </BrowserRouter>
 
 )
