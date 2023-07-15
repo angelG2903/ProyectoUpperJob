@@ -1,12 +1,13 @@
 import { Button } from "../../atoms/button/Button"
+import './style.css';
 
-export const Plan = ({ Title}) => {
+export const Plan = ({ Title, Text}) => {
     return (
         <>
-            <div className="card2">
-                <h4 className="subtitle is-5 tituloh4">{Title}</h4>
+            <div className="card-2">
+                <h4 className="title is-4 tituloh4">{Title}</h4>
                 
-                <p className="texto">
+                <p className="texto-2">
                     Publicaciones de vacantes <br />
                     Búsquedas de CV <br />
                     Créditos para datos de contactos por mes <br />
@@ -15,7 +16,7 @@ export const Plan = ({ Title}) => {
                     
                 </p>
                 <br />
-                <Button TextName="$200.00 mnx"/>
+                <Button TextName={Text} style={'btn-plan'}/>
             </div>
         </>
     )

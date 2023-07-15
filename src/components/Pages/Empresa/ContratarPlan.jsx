@@ -15,9 +15,9 @@ export default function ContratarPlan() {
                     Su perfil no esta completo favor de completar su registro
                 </div>
 
-                <Plan Title="Plan basico"/>
-                <Plan Title="Plan basico"/>
-                <Plan Title="Plan basico"/>
+                <Plan Title="Plan basico" Text="$200.00 mnx"/>
+                <Plan Title="Plan basico" Text="$200.00 mnx"/>
+                <Plan Title="Plan basico" Text="$200.00 mnx"/>
             
                 <div className='inf'>
                     <img src={whatsApp} alt="" />

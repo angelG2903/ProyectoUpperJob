@@ -1,0 +1,19 @@
+.card-2 {
+    padding: 5px;
+    overflow-y: auto;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0px 4px 4px 0px ;
+}
+
+.tituloh4 {
+    font-weight: bold;
+}
+
+.texto-2 {
+    font-family: 14px;
+    font-weight: bold;
+}
