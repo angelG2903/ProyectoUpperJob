@@ -1,8 +1,8 @@
-export const TextArea = ({TextName}) => {
+export const TextArea = ({TextName, styles, styleText}) => {
   return (
     <>
-        <h3>{TextName}</h3>
-        <textarea className="textarea mb-5" placeholder="e.g. Hello world"></textarea>
+        <h3 className={`${styles}`}>{TextName}</h3>
+        <textarea className={`textarea ${styleText}`} placeholder="e.g. Hello world"></textarea>
     </>
   )
 }

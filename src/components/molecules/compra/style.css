@@ -1,0 +1,17 @@
+.cStyles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.t-card-compra {
+    line-height: 27px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+    color: black;
+}
+
+.btn-Trash {
+    width: 320px !important;
+}

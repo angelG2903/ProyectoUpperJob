@@ -19,7 +19,7 @@ export const InformesButton = () => {
 
                 <FormInformes />
                 <Select TextName="Tipo de consulta"/>
-                <TextArea TextName="Dirección"/>
+                <TextArea TextName="Dirección" styleText={"textarea3"}/>
                 <Button TextName="Enviar" style={"mt-5"}/>
             </section>
 

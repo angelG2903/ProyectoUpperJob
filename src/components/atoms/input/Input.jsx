@@ -1,11 +1,11 @@
 import './style.css'
 
-export const Input = ({ TextName }) => {
+export const Input = ({ TextName, styles }) => {
   return (
     <>
-      <div className='mt-3'>
+      <div className={`${styles}`}>
         <label>{ TextName }</label> 
-        <input className="input is-rounded  big" type="text" />
+        <input className="input is-rounded big" type="text" />
       </div>
     </>
   )

@@ -3,54 +3,9 @@
     margin: 1rem 1.5rem;
 }
 
-/* ya quedo */
-/* .isBlack {
-    background-color: black;
-    color: white;
-}
-
-.isBlack:hover {
-    background-color: rgb(22, 22, 22);
-    color: rgb(228, 228, 228);
-} */
-
 .title1 {
     color: black;
     font-weight: bold;
     text-align: center;
 }
 
-/* .navbar-burgerNone {
-    margin-left: 0;
-}
-
-.navbar-itemNone{
-    padding: 0.5rem 0rem;
-}
-
-.buttonPr {
-    background-color: #007CFF;
-    color: white !important;
-    margin-left: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-} */
-
-/* ya quedo */
-/* .se {
-    background-color: black;
-    border-radius: 50%;
-} */
-
-
-/* @media (min-width: 1024px) {
-    .buttM {
-        display: none;
-    }
-}
-
-@media (max-width: 1024px) {
-    .buttMnone {
-        display: none;
-    }
-} */
