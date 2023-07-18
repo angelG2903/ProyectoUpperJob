@@ -3,7 +3,6 @@ import { Button } from "../atoms/button/Button"
 import { Select } from "../atoms/select/Select"
 import { TextArea } from "../atoms/textArea/TextArea"
 import { FormInformes } from "../molecules/form/FormInformes"
-import footer from '../../assets/footer.svg'
 import './styles/informes.css'
 import { IconoArrow } from "../atoms/icono/IconoArrow"
 
@@ -22,8 +21,7 @@ export const InformesButton = () => {
                 <TextArea TextName="Dirección" styleText={"textarea3"}/>
                 <Button TextName="Enviar" style={"mt-5"}/>
             </section>
-
-            <img className='fot' src={footer}/>
+            
 
         </>
     )

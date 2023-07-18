@@ -9,13 +9,13 @@ import { PerfilEmpleado } from './components/Pages/Empleado/PerfilEmpleado'
 import { PerfilEmpresa } from './components/Pages/Empresa/PerfilEmpresa'
 import { Postulaciones } from './components/Pages/Empleado/Postulaciones'
 import { VerVacante } from './components/Pages/Empleado/VerVacante'
-// import App from './App'
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 
   <BrowserRouter>
-    {/* <App/> */}
-    <VerVacante/>
+    <App/>
+    {/* <VerVacante/> */}
   </BrowserRouter>
 
 )

@@ -9,7 +9,7 @@ export const Compra = ({Title}) => {
             <p className='t-card-compra'>{Title}</p>
             <p className='t-card-compra mb-2'>$200.00 mnx</p>
             
-            <Button style={"mb-2 btn-Trash"} icon={<i class="fa-regular fa-trash-can"></i>}/>
+            <Button style={"mb-2 btn-Trash"} icon={<i className="fa-regular fa-trash-can"></i>}/>
         </div>
 
 
