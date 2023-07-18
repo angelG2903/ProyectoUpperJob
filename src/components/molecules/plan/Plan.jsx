@@ -8,8 +8,8 @@ export const Plan = ({ Title, Text}) => {
                 <h4 className="title is-4 tituloh4">{Title}</h4>
                 
                 <p className="texto-2">
-                    Publicaciones de vacantes <br />
-                    Búsquedas de CV <br />
+                    Publicaciones de vacantes 
+                    Búsquedas de CV 
                     Créditos para datos de contactos por mes <br />
                     Costo semestral primer usuario <br />
                     Costo anual primer usuario <br />

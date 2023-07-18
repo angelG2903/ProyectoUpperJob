@@ -1,3 +1,8 @@
+.tag-color {
+    background: #58FF4A !important;
+    position: absolute;
+}
+
 .ic-img {
     width: 140px;
     margin-top: -28px;
@@ -30,7 +35,7 @@
 .txt-image {
     width: 130px;
     height: 123px;
-    margin-top: -40px;
+    margin-top: 10px;
 }
 
 .txt-cont {
@@ -51,11 +56,11 @@
     margin-top: 50px;
 }
 
-.btn1-end {
-    width: 140px !important;
+.btt-end {
+    width: 170px !important;
 }
 
-.btn2-end {
-    margin-left: 40px;
+.btt2-end {
+    margin-left: 20px;
     width: 150px !important;
 }

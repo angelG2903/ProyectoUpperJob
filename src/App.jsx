@@ -7,6 +7,7 @@ import { FormularioEmpresa } from "./components/Pages/Empresa/FormularioEmpresa"
 import { RegistroTarjeta } from "./components/Pages/Empresa/RegistroTarjeta"
 import { VincularTarjeta } from "./components/Pages/Empresa/VincularTarjeta"
 import { MisTarjetas } from "./components/Pages/Empresa/MisTarjetas"
+import footer from './assets/footer.svg'
 
 function App() {
 
@@ -24,6 +25,8 @@ function App() {
         <Route path="registro" element={ <RegistroEmpresa /> }/>
         <Route path="informes" element={ <InformesButton /> }/>
       </Routes>
+
+      
     </>
   )
 }

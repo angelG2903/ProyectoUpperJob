@@ -1,0 +1,153 @@
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+    gap: 1rem;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #1c1c1c;
+}
+
+.abrir-menu,
+.cerrar-menu {
+    display: none;
+}
+
+@media screen and (max-width: 550px) {
+    .abrir-menu,
+    .cerrar-menu {
+        display: block;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .logo-upper {
+        position: absolute;
+        width: 120px;
+        height: 48px;
+        margin-right: 100px;
+        margin-top: -17px;
+    }
+
+    .abrir-menu {
+        color: #1c1c1c;
+        font-size: 30px;
+    }
+
+    .cerrar-menu {
+        color: #ececec;
+        margin-top: -18px;
+        font-size: 30px;
+    }
+
+    .nav {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 250px;
+        background-color: #2C8ABE;
+        padding: 1rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+    }
+
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .nav-list {
+        flex-direction: column;
+        width: 220px;
+        margin-top: 10px;
+
+    }
+
+    .icons-menu {
+        color: white;
+        font-size: 22px;
+    }
+
+    .act {
+        padding: 3px;
+        border-radius: 5px;
+    }
+
+    .act:hover{
+        background: #4CA1DC;
+
+    }
+
+    .nav-list li a {
+        margin-left: 10px;
+        font-size: 18px;
+        color: #ecececec;
+    }
+
+    .icons-men {
+        color: white;
+        font-size: 22px;
+    }
+
+    .act-end {
+        padding: 3px;
+        margin-top: 380px;
+        border-radius: 5px;
+    }
+
+    .act-end:hover {
+        background: #4CA1DC;
+    }
+
+    .sett {
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .sett:hover {
+        background: #4CA1DC;
+    }
+
+    .icon-sett {
+        position: absolute;
+        color: white;
+        font-size: 22px;
+        margin-top: -38px;
+        margin-left: 187px;
+    }
+
+    .img-user {
+        width: 40px;
+        height: 40px;
+    }
+
+    .user {
+        margin-top: -40px;
+        margin-left: 45px;
+        color: white;
+        width: 120px;
+        height: 18px;
+        font-size: 16px;
+    }
+
+    .text-perfil {
+        font-size: 12px;
+        color: white;
+        margin-top: 3px;
+        margin-left: 48px;
+    }
+
+
+
+    
+}
