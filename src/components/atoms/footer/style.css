@@ -1,0 +1,159 @@
+.contain {
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.contain::before {
+    min-width: 100%;
+    position: absolute;
+    content: '';
+    padding: 100px 195px;
+    background-image: linear-gradient(0deg, transparent 0%, rgba(62, 198, 255, 0.58) 0% 50%, transparent 50%);
+}
+
+
+.triangle {
+    min-width: 150px;
+    position: relative;
+    border-top: 100px solid transparent;
+    border-left: 195px solid rgba(194, 227, 252, 0.88);
+   
+}
+.triangle::before {
+    min-width: 150px;
+    border-bottom: 100px solid transparent;
+    border-left: 195px solid rgba(62, 198, 255, 0.47);
+    bottom: 1;
+    right: 0;
+    position: absolute;
+    content: '';
+}
+
+.triangle2 {
+    min-width: 150px;
+    position: relative;
+    border-top: 100px solid transparent;
+    border-right: 195px solid rgba(62, 198, 255, 0.47);
+}
+.triangle2::before {
+    min-width: 150px;
+    border-bottom: 100px solid transparent;
+    border-right: 195px solid rgba(194, 227, 252, 0.88);
+    bottom: 1;
+    left: 0;
+    position: absolute;
+    content: '';
+}
+
+@media (min-width: 1024px) {
+
+    .contain::before {
+        padding: 125px 195px;
+    }
+    
+    
+    .triangle {
+        border-top: 125px solid transparent;
+        border-left: 510px solid rgba(194, 227, 252, 0.88);
+       
+    }
+    .triangle::before {
+        border-bottom: 125px solid transparent;
+        border-left: 510px solid rgba(62, 198, 255, 0.47);
+       
+    }
+    
+    .triangle2 {
+        border-top: 125px solid transparent;
+        border-right: 510px solid rgba(62, 198, 255, 0.47);
+    }
+    .triangle2::before {
+        border-bottom: 125px solid transparent;
+        border-right: 510px solid rgba(194, 227, 252, 0.88);
+        
+    }
+}
+
+@media (min-width: 768px ) and (max-width: 1023px) {
+
+    .contain::before {
+        padding: 125px 195px;
+    }
+    
+    .triangle {
+        border-top: 125px solid transparent;
+        border-left: 380px solid rgba(194, 227, 252, 0.88);
+       
+    }
+    .triangle::before {
+        border-bottom: 125px solid transparent;
+        border-left: 380px solid rgba(62, 198, 255, 0.47);
+       
+    }
+    
+    .triangle2 {
+        border-top: 125px solid transparent;
+        border-right: 380px solid rgba(62, 198, 255, 0.47);
+    }
+    .triangle2::before {
+        border-bottom: 125px solid transparent;
+        border-right: 380px solid rgba(194, 227, 252, 0.88);
+        
+    }
+}
+
+@media (min-width: 600px ) and (max-width: 768px) {
+
+    .contain::before {
+        padding: 100px 195px;
+    }
+    
+    
+    .triangle {
+        border-top: 100px solid transparent;
+        border-left: 300px solid rgba(194, 227, 252, 0.88);
+       
+    }
+    .triangle::before {
+        border-bottom: 100px solid transparent;
+        border-left: 300px solid rgba(62, 198, 255, 0.47);
+    }
+    
+    .triangle2 {
+        border-top: 100px solid transparent;
+        border-right: 300px solid rgba(62, 198, 255, 0.47);
+    }
+    .triangle2::before {
+        border-bottom: 100px solid transparent;
+        border-right: 300px solid rgba(194, 227, 252, 0.88);
+    }
+}
+
+@media (max-width: 389px) {
+
+    .contain::before {
+        padding: 70px 19px;
+    }
+
+    .triangle {
+        border-top: 70px solid transparent;
+        border-left: 160px solid rgba(194, 227, 252, 0.88);
+    }
+    .triangle::before {
+        border-bottom: 70px solid transparent;
+        border-left: 160px solid rgba(62, 198, 255, 0.47);
+    }
+    
+    .triangle2 {
+        border-top: 70px solid transparent;
+        border-right: 160px solid rgba(62, 198, 255, 0.47);
+    }
+    .triangle2::before {
+        border-bottom: 70px solid transparent;
+        border-right: 160px solid rgba(194, 227, 252, 0.88);
+    }
+}
+  
+  
+  
+  

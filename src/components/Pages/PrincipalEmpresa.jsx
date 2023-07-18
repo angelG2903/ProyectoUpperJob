@@ -71,7 +71,6 @@ export const PrincipalEmpresa = () => {
                 <Button TextName="Comienza ahora"/>
             </section>
 
-            <img src={footer}/>
         </>
     )
 }

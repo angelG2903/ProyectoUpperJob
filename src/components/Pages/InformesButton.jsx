@@ -21,7 +21,6 @@ export const InformesButton = () => {
                 <TextArea TextName="Dirección" styleText={"textarea3"}/>
                 <Button TextName="Enviar" style={"mt-5"}/>
             </section>
-
             
 
         </>

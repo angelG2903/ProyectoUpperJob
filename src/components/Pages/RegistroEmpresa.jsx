@@ -17,18 +17,14 @@ export const RegistroEmpresa = () => {
         </div>
 
         <ButtonGoogle SrcImg={google}/>
-        <Button TextName={"Registrarse con correo"}/>
-        <Button TextName={"Ya cuento con una cuenta"}/>
+        <Button TextName={"Registrarse con correo"} style={"mt-4"}/>
+        <Button TextName={"Ya cuento con una cuenta"} style={"mt-4"}/>
 
         <div className='inf'>
             <ButtonSmall TextName={"Informes"} />
             <img src={whatsApp} alt="" />
         </div>
-
-        
-    
         </section>
-        <img className='fot' src={footer} alt="" />
 
     </>
     
