@@ -1,19 +1,14 @@
 import { Route, Routes } from "react-router-dom"
-import {
-    PrincipalEmpresa, RegistroEmpresa, InformesButton, FormularioEmpresa,
-    RegistroTarjeta, VincularTarjeta, MisTarjetas, LoginEmpresa, Modal, ContratarPlan, 
-    PerfilEmpresa, MiPlanActivo, CrearVacante, Postulantes, PostulantesDetalles, 
-    PostulantesF
-    } from "./components/Pages/Empresa"
-    
-import { 
-    RegistroEmpleado, FormularioEmpleado, PrincipalEmpleado, PerfilEmpleado, 
-    Postulaciones, PostulacionesEstatus, VerVacanteAceptado
-    } from "./components/Pages/Empleado"
-import { Footer } from "./components/atoms"
+import { PrincipalEmpresa, RegistroEmpresa, InformesButton, FormularioEmpresa, RegistroTarjeta, VincularTarjeta, MisTarjetas, LoginEmpresa, Modal, ContratarPlan,PerfilEmpresa, MiPlanActivo, CrearVacante, Postulantes, PostulantesDetalles,PostulantesF} 
+from "./components/Pages/Empresa";
+
+import {RegistroEmpleado, FormularioEmpleado, PrincipalEmpleado, PerfilEmpleado, Postulaciones, PostulacionesEstatus, VerVacanteAceptado
+} from "./components/Pages/Empleado"
+
 import { RegistroCorreo } from "./components/Pages/RegistroCorreo"
-import { Menu } from "./Menu"
 import { MensajeAcceso } from "./components/Pages/MensajeAcceso"
+import { Footer } from "./components/atoms"
+import { Menu } from "./Menu"
 
 function App() {
 
