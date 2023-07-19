@@ -1,11 +1,8 @@
-import { Button } from "../atoms/button/Button"
-import { Navbar } from "../organisms/navBar/Navbar"
-import img1 from '../../assets/1.png';
-import img2 from '../../assets/2.png';
-import img3 from '../../assets/3.png';
-import { Card2 } from "../molecules/card2/Card2";
-import footer from '../../assets/footer.svg'
-// import img4 from '../assets/Captura.png';
+import { Button } from "../../atoms"
+import { Card2 } from "../../molecules";
+import { Navbar } from "../../organisms/navBar/Navbar"
+import imagenes from "../../../assets/imagenes";
+import './styles/style.css'
 
 export const PrincipalEmpresa = () => {
     return (
@@ -15,7 +12,7 @@ export const PrincipalEmpresa = () => {
             </section>
 
                 <figure className="image is-5by4 img">
-                    <img src={img1}></img>
+                    <img src={imagenes.img1}></img>
                     <div className="titleImg">
                         <h2>¡Únete a nosotros y publica tus ofertas !</h2>
                     </div>
@@ -44,14 +41,14 @@ export const PrincipalEmpresa = () => {
                 </h2>
 
                 <figure className="image is-4by3 img2">
-                    <img src={img2}></img>
+                    <img src={imagenes.img2}></img>
                 </figure>
 
                 <h2 className="h2 mt-4">Atrae al candidato que necesitas</h2>
 
                 <div className="car">
                     <div className="cardF">
-                        <img src={img3} alt="Placeholder image"/>
+                        <img src={imagenes.img3} alt="Placeholder image"/>
                     </div>
                     <div className="ic">
 

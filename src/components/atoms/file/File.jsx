@@ -1,12 +1,18 @@
 import './style.css'
 
-export const File = ({ TextName }) => {
+export const File = ({ TextName, name, value, onChange }) => {
   return (
     <>
         <p className='filem'>{ TextName }</p>
         <div className="file is-info has-name">
             <label className="file-label">
-                <input className="file-input" type="file" name="resume"/>
+                <input 
+                    className="file-input"
+                    type="file" 
+                    name={name}
+                    value={value}
+                    onChange={onChange}
+                />
                 <span className="file-cta">
                 <span className="file-icon">
                     <i className="fas fa-upload"></i>

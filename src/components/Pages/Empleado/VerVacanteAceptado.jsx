@@ -1,10 +1,6 @@
-import { IconoArrow } from "../../atoms/icono/IconoArrow"
-import upperjob from '../../../assets/Upperjob.svg';
-import img from '../../../assets/cardFernanda.svg';
-import './styles/verVacanteAceptado.css';
-import { ImagenRedonda } from "../../atoms/imagenRedonda/ImagenRedonda";
-import { Button } from "../../atoms/button/Button";
-import { Tag } from "../../atoms/tag/Tag";
+import { IconoArrow, ImagenRedonda, Button, Tag } from "../../atoms"
+import imagenes from "../../../assets/imagenes";
+import './styles/verVacanteAceptado.css'
 
 export const VerVacanteAceptado = () => {
     return (
@@ -13,13 +9,13 @@ export const VerVacanteAceptado = () => {
                 <IconoArrow/>
 
                 <div className="ic-img">
-                    <img src={upperjob}/>
+                    <img src={imagenes.UpperJob}/>
                 </div>
 
-                <div className="notification is-info">
+                {/* <div className="notification is-info">
                     <button className="delete"></button>
                     Se ha enviado a su correo electrónico los pasos a seguir para su respectivo proceso
-                </div>
+                </div> */}
 
                 <div className="text-img">
                     <Tag TextName='Aceptado' style='tag-color2'/>
@@ -29,7 +25,7 @@ export const VerVacanteAceptado = () => {
                             <p className="txt-p">Sistema Educativo Justo Sierra  Gustavo A. Madero, Ciudad de México DF</p>
                         </div>
                         
-                        <ImagenRedonda Image={img} style={'txt-image'} TextName='Amazon'/>
+                        <ImagenRedonda Image={imagenes.cardFernanda} style={'txt-image'} TextName='Amazon'/>
                     </div>
 
                     <div className="txt-cont">

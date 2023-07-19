@@ -1,5 +1,4 @@
-import { IconoArrow } from "../atoms/icono/IconoArrow"
-import footer from '../../assets/footer.svg'
+import { IconoArrow } from "../atoms"
 import './styles/registroC.css'
 
 export const RegistroCorreo = () => {
@@ -32,9 +31,6 @@ export const RegistroCorreo = () => {
 
                 </div>
             </section>
-
-            <img className='fot' src={footer}/>
-
         </>
     )
 }

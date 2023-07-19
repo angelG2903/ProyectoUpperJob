@@ -1,6 +1,5 @@
-import footer from '../../../assets/footer.svg'
 import { useState } from 'react';
-import '../styles/modal.css';
+import './styles/modal.css';
 
 export const Modal = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -33,7 +32,6 @@ export const Modal = () => {
                     </div>
             </section>
                             
-            <img className='footerImg' src={footer} alt="" />
         </>
     );
 };

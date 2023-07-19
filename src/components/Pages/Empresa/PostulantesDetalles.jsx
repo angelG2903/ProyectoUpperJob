@@ -1,7 +1,7 @@
 import { Navbar } from '../../organisms/navBar/Navbar';
-import '../styles/postulantesD.css';
-import image from '../../../assets/4.svg';
-import { Button } from '../../atoms/button/Button';
+import imagenes from '../../../assets/imagenes';
+import { Button } from '../../atoms';
+import './styles/postulantesD.css';
 
 export const PostulantesDetalles = () => {
     return (
@@ -12,7 +12,7 @@ export const PostulantesDetalles = () => {
             <div className="card carPost">
                 <div className="card-image carImage1">
                     <figure className="image">
-                        <img src={image} alt="Placeholder image" width="250" height="229"/>
+                        <img src={imagenes.img4} alt="Placeholder image" width="250" height="229"/>
                         <h2 className='title-h2'>Diseñador UX/UI</h2>
                         <p className='text-p'>
                             Calle Nueva, 35 Motril, Granada 18600

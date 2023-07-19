@@ -46,30 +46,20 @@ export const Navbar = ({ isLogin=true }) => {
             </a>
 
             <a className="navbar-item">
-              Documentation
+              Ofertas
             </a>
-
-            <div className="navbar-item has-dropdown is-hoverable">
-              <a className="navbar-link">
-                More
-              </a>
-
-              <div className="navbar-dropdown">
-                <a className="navbar-item">
-                  About
-                </a>
-                <a className="navbar-item">
-                  Jobs
-                </a>
-                <a className="navbar-item">
-                  Contact
-                </a>
-                <hr className="navbar-divider"></hr>
-                <a className="navbar-item">
-                  Report an issue
-                </a>
-              </div>
-            </div>
+            <a className="navbar-item">
+              Eventos
+            </a>
+            <a className="navbar-item">
+              Publicar ofertas
+            </a>
+            <a className="navbar-item">
+              Mentorias
+            </a>
+            <a className="navbar-item">
+              LogoutVboton
+            </a>
           </div>
 
           <div className="navbar-end">

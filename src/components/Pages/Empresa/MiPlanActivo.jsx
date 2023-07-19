@@ -1,15 +1,15 @@
-import { Button } from "../../atoms/button/Button";
-import { Plan } from "../../molecules/plan/Plan"
+import { Button } from "../../atoms";
+import { Plan } from "../../molecules"
 import { Navbar } from "../../organisms/navBar/Navbar"
-import '../styles/miPlanActivo.css';
+import './styles/miPlanActivo.css';
 
 export const MiPlanActivo = () => {
     return (
         <>
             <section className="margenes">
-                <Navbar/>   
+                <Navbar isLogin={ false }/>   
 
-                <h2 className="title is-4 tit-plan">Plan activo</h2>
+                <h2 className=" is-4 tit-plan">Plan activo</h2>
 
                 <Plan Title="$400" Text="Cancelar"/>
 

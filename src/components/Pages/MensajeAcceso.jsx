@@ -1,15 +1,15 @@
-import img5 from '../../assets/5.png';
-import Upperjob from '../../assets/Upperjob.svg';
+import imagenes from '../../assets/imagenes'
+import './styles/mensajeA.css'
 
 export const MensajeAcceso = () => {
     return (
         <>
             <div className='img'>
-                <img src={img5}/>
+                <img src={imagenes.img5}/>
             </div>
 
             <div className='logo'>
-                <img src={Upperjob} />
+                <img src={imagenes.UpperJob} />
             </div>
 
             <div className='text'>

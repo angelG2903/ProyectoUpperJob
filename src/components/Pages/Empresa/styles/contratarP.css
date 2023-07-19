@@ -2,9 +2,11 @@
     margin-top: 15px;
 }
 
-.inf {
+.inf-1 {
+    display: flex;
+    justify-content: end;
     margin-top: -10px;
-    margin-left: 270px;
+    /* margin-left: 270px; */
 }
 
 .fot {

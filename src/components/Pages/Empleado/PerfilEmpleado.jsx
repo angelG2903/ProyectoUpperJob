@@ -1,10 +1,8 @@
+import { ImagenRedonda, Button, ButtonPeque } from "../../atoms";
 import { Navbar } from "../../organisms/navBar/Navbar"
-import img from'../../../assets/cardFernanda.svg';
-import { ImagenRedonda } from "../../atoms/imagenRedonda/ImagenRedonda";
-import { CardInformacion } from "../../molecules/cardInformacion/CardInformacion";
+import { CardInformacion } from "../../molecules";
+import imagenes from "../../../assets/imagenes";
 import './styles/perfilEmpleado.css'
-import { Button } from "../../atoms/button/Button";
-import { ButtonPequeño } from "../../atoms/buttonPequeño/ButtonPequeño";
 
 
 export const PerfilEmpleado = () => {
@@ -12,9 +10,9 @@ export const PerfilEmpleado = () => {
         <>
             <section className="margenes">
                 
-                <Navbar/>
-                <ButtonPequeño TextName='Editar perfil'/>
-                <ImagenRedonda Image={img} TextName={'Conchita Gutierrez'}/>
+                <Navbar isLogin={ false }/>
+                <ButtonPeque TextName='Editar perfil'/>
+                <ImagenRedonda Image={imagenes.cardFernanda} TextName={'Conchita Gutierrez'}/>
                 <CardInformacion 
                     Title='Datos personales'
                     TextName='

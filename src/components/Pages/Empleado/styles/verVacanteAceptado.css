@@ -12,6 +12,7 @@
 
 .txt-i {
     display: flex;
+    align-items: start;
     margin-top: 40px;
 }
 
@@ -35,7 +36,6 @@
 .txt-image {
     width: 130px;
     height: 123px;
-    margin-top: 10px;
 }
 
 .txt-cont {

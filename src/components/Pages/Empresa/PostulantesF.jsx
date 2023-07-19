@@ -1,7 +1,6 @@
-import { CardPostulantesF } from '../../molecules/cardPostulantesF/CardPostulantesF';
+import { CardPostulantesF } from '../../molecules';
 import { Navbar } from '../../organisms/navBar/Navbar';
-import { Search } from '../../atoms/search/Search';
-import { Select } from '../../atoms/select/Select';
+import { Search, Select } from '../../atoms';
 
 export const PostulantesF = () => {
     return (

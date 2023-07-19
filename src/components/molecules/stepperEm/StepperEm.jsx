@@ -1,12 +1,8 @@
 import { useState } from "react";
-import { Input } from "../../atoms/input/Input"
-import { Select } from "../../atoms/select/Select"
+import { Input, Select, Button, File, CheckBoxTerms } from "../../atoms"
 import './stepperEm.css'
-import { Button } from "../../atoms/button/Button";
-import { File } from "../../atoms/file/File";
-import { CheckBoxTerms } from "../../atoms/checkBoxT/CheckBoxTerms";
 
-export const StepperEm = () => {
+export const StepperEm = ({ onSubmit }) => {
 
     const [step, setStep] = useState(1);
 
@@ -29,29 +25,89 @@ export const StepperEm = () => {
                 <p className={`progress2 ${step > 0 ? 'progress-active2' : ''}`}>Personal info</p>
                 <p className={`progress2 ${step >= 2 ? 'progress-active2' : ''}`}>Personal info</p>
             </div>
-            <form>
+            <form
+                onSubmit={onSubmit}
+            >
                 {step === 1 && <div className="step-content">
-                    <Input TextName={"Nombre"} />
-                    <Input TextName={"Apellidos"} />
-                    <Input TextName={"E-mail de acceso"} />
-                    <Input TextName={"Número de teléfono"} />
+                    <Input 
+                        TextName={"Nombre"} 
+                        name={"nombre"}
+                        type={"text"}
+                        /* value={""}
+                        onChange={""} */
+                    />
+                    <Input 
+                        TextName={"Apellidos"} 
+                        name={"apellidos"}
+                        type={"text"}
+                        /* value={""}
+                        onChange={""} */
+                    />
+                    <Input 
+                        TextName={"E-mail de acceso"}
+                        name={"email"}
+                        type={"email"}
+                        /* value={""}
+                        onChange={""} */
+                    />
+                    <Input 
+                        TextName={"Número de teléfono"} 
+                        name={"numero"}
+                        type={"tel"}
+                        /* value={""}
+                        onChange={""} */
+                    />
                     <Select TextName={"Estado de procedencia"}/>
 
                 </div>}
                 {step === 2 && <div className="step-content">
 
                     <Select TextName={"Puesto de trabajo"}/>
-                    <Input TextName={"contraseña"}/>    
-                    <Input TextName={"Confirmar contraseña"}/>   
-                    <File TextName={"Fotografia"}/>
-                    <File TextName={"Subir CV"}/>
-                    <File TextName={"Subir carta de presentación"}/>
+
+                    <Input 
+                        TextName={"contraseña"}
+                        name={"password"}
+                        type={"password"}
+                        /* value={""}
+                        onChange={""} */
+                    />    
+
+                    <Input 
+                        TextName={"Confirmar contraseña"}
+                        name={"confirm"}
+                        type={"password"}
+                        /* value={""}
+                        onChange={""} */
+                    />   
+                    <File 
+                        TextName={"Fotografia"}
+                        name={"fotografia"}
+                        /* value={""}
+                        onChange={""} */
+                    />
+
+                    <File 
+                        TextName={"Subir CV"}
+                        name={"subirCv"}
+                        /* value={""}
+                        onChange={""} */
+                    />
+                    <File 
+                        TextName={"Subir carta de presentación"}
+                        name={"subirCarta"}
+                        /* value={""}
+                        onChange={""} */
+                    />
                     <CheckBoxTerms />
                     
                 </div>}
             </form>
 
-            <Button TextName={"Continuar despues"} style={"mb-5"}/>
+            <Button 
+                TextName={"Continuar despues"} 
+                style={"mb-5"} 
+                // onClick={""}
+            />
             
             <div className="btnopc">
                 <button onClick={prevStep} disabled={step === 1} className="stepper-button button is-rounded isBlack">
@@ -60,7 +116,7 @@ export const StepperEm = () => {
                 <button onClick={nextStep} disabled={step === 2} className={`stepper-button button is-rounded isBlack ${step === 2 ? 'd-none' : ''}`}>
                     Siguiente
                 </button>
-                <button disabled={step === 1} className={`stepper-button button is-rounded isBlack ${step === 1 ? 'd-none' : ''}`}>
+                <button disabled={step === 1} type="submit" className={`stepper-button button is-rounded isBlack ${step === 1 ? 'd-none' : ''}`}>
                     Guardar
                 </button>
 

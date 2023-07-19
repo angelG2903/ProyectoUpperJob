@@ -1,4 +1,4 @@
-export const CardPostulantes = ({TextName}) => {
+export const CardPostulantes = ({TextName, onClickE, onClickD}) => {
     return (
         <>
             <div className="ca">
@@ -16,8 +16,14 @@ export const CardPostulantes = ({TextName}) => {
                 <hr />
 
                 <div className="buttonsFinal">
-                    <button className="button is-primary is-outlined is-rounded btnF">Editar</button>
-                    <button className="button is-primary is-outlined is-rounded btnF2">Eliminar</button>
+                    <button 
+                        className="button is-primary is-outlined is-rounded btnF"
+                        onClick={onClickE}
+                    >Editar</button>
+                    <button 
+                        className="button is-primary is-outlined is-rounded btnF2"
+                        onClick={onClickD}
+                    >Eliminar</button>
                 </div>
 
             </div>

@@ -1,10 +1,9 @@
-import { Plan } from "../../molecules/plan/Plan";
+import { Plan } from "../../molecules";
 import { Navbar } from "../../organisms/navBar/Navbar";
-import whatsApp from '../../../assets/WhatsApp.png';
-import footer from '../../../assets/footer.svg';
-import '../styles/contratarP.css';
+import imagenes from '../../../assets/imagenes'
+import './styles/contratarP.css';
 
-export default function ContratarPlan() {
+export function ContratarPlan() {
     return (
         <>
             <section className="margenes">
@@ -19,13 +18,12 @@ export default function ContratarPlan() {
                 <Plan Title="Plan basico" Text="$200.00 mnx"/>
                 <Plan Title="Plan basico" Text="$200.00 mnx"/>
             
-                <div className='inf'>
-                    <img src={whatsApp} alt="" />
+                <div className='inf-1'>
+                    <img src={imagenes.whatsApp} alt="" />
                 </div>
 
             </section>
             
-            <img className='fot' src={footer}/>
         </>
     )
 }

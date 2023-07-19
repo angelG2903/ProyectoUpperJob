@@ -1,11 +1,11 @@
-import { Button } from "../../atoms/button/Button"
+import { Button } from "../../atoms"
 import './style.css';
 
 export const Plan = ({ Title, Text}) => {
     return (
         <>
             <div className="card-2">
-                <h4 className="title is-4 tituloh4">{Title}</h4>
+                <h4 className="tituloh4">{Title}</h4>
                 
                 <p className="texto-2">
                     Publicaciones de vacantes 
@@ -16,7 +16,11 @@ export const Plan = ({ Title, Text}) => {
                     
                 </p>
                 <br />
-                <Button TextName={Text} style={'btn-plan'}/>
+                <Button 
+                    TextName={Text} 
+                    style={'btn-plan'}
+                    // onClick={""}
+                />
             </div>
         </>
     )

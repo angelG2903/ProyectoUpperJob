@@ -1,5 +1,4 @@
-import { Button } from '../../atoms/button/Button';
-import { Tag } from '../../atoms/tag/Tag';
+import { Button, Tag } from '../../atoms';
 import './style.css';
 
 export const CardPostulanteEmpleado = ({Image, TextName, Text}) => {
@@ -12,7 +11,7 @@ export const CardPostulanteEmpleado = ({Image, TextName, Text}) => {
             <div className="card2-cont">
                 <h2>{TextName}</h2>
                 <p>{Text}</p>
-                <Button TextName='Ver detalles' style='card-btn'/>
+                <Button TextName='Ver detalles' style='card-btn' /* onClick={""} *//>
             </div>
 
             <Tag TextName='En proceso..' style='card-tag'/>

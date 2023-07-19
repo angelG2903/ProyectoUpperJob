@@ -1,9 +1,6 @@
-import img4 from '../../../assets/visaPay.svg'
-import logoN from '../../../assets/UpperJob.svg'
-import payPal from '../../../assets/payPal.svg'
-import { Button } from '../../atoms/button/Button'
-import '../styles/VincularTarjeta.css'
-import { IconoArrow } from '../../atoms/icono/IconoArrow'
+import { Button, IconoArrow } from '../../atoms'
+import imagenes from '../../../assets/imagenes'
+import './styles/VincularTarjeta.css'
 
 export const VincularTarjeta = () => {
   return (
@@ -13,13 +10,13 @@ export const VincularTarjeta = () => {
             <IconoArrow/>
 
             <div className='imgs mb-5'>
-                <img src={logoN} width={120} alt="" className="mt-5" />   
-                <img src={img4} width={280} alt="" className="mt-5" />
+                <img src={imagenes.UpperJob} width={120} alt="" className="mt-5" />   
+                <img src={imagenes.visaPay} width={280} alt="" className="mt-5" />
                 <h1 className='mt-3 textoSele'><b>Selecciona un método de pago</b></h1>
             </div>
 
             <Button TextName={"Vincula tu tarjeta"}/>
-            <Button TextName={"Pagar con "} style={"payP mt-3"} icon={<img src={payPal} className='ml-2' alt=""/>}/>
+            <Button TextName={"Pagar con "} style={"payP mt-3"} icon={<img src={imagenes.payPal} className='ml-2' alt=""/>}/>
 
         </section>
 

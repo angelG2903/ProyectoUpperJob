@@ -1,7 +1,8 @@
 import imagenes from '../../../assets/imagenes'
-import { Button, ButtonGoogle } from '../../atoms'
+import { Button, ButtonGoogle, ButtonSmall } from '../../atoms'
 
-export const RegistroEmpleado = () => {
+
+export const RegistroEmpresa = () => {
   return (
     <>
         <section className='margenes'>
@@ -13,10 +14,14 @@ export const RegistroEmpleado = () => {
         <ButtonGoogle SrcImg={imagenes.google}/>
         <Button TextName={"Registrarse con correo"} style={"mt-4"}/>
         <Button TextName={"Ya cuento con una cuenta"} style={"mt-4"}/>
-    
+
+        <div className='inf'>
+            <ButtonSmall TextName={"Informes"} />
+            <img src={imagenes.whatsApp} alt="" />
+        </div>
         </section>
-        
 
     </>
+    
   )
 }

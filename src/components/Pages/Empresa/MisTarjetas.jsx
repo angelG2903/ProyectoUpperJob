@@ -1,5 +1,5 @@
-import { Button } from "../../atoms/button/Button"
-import { TarjetaCredito } from "../../molecules/tarjetaC/TarjetaCredito"
+import { Button } from "../../atoms"
+import { TarjetaCredito } from "../../molecules"
 import { Navbar } from "../../organisms/navBar/Navbar"
 
 export const MisTarjetas = () => {

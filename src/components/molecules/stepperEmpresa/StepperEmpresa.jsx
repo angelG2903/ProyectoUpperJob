@@ -1,12 +1,8 @@
 import { useState } from "react";
-import { Input } from "../../atoms/input/Input"
-import { Select } from "../../atoms/select/Select"
-import { Button } from "../../atoms/button/Button";
-import { CheckBoxTerms } from "../../atoms/checkBoxT/CheckBoxTerms";
+import { Input, Select, Button, CheckBoxTerms, TextArea } from "../../atoms"
 import './style.css'
-import { TextArea } from "../../atoms/textArea/TextArea";
 
-export const StepperEmpresa = () => {
+export const StepperEmpresa = ({onsubmit}) => {
 
     const [step, setStep] = useState(1);
 
@@ -31,13 +27,43 @@ export const StepperEmpresa = () => {
                 <p className={`progress2 ${step >= 2 ? 'progress-active2' : ''}`}>Personal info</p>
                 <p className={`progress2 ${step >= 3 ? 'progress-active2' : ''}`}>Personal info</p>
             </div>
-            <form>
+            <form onSubmit={onsubmit}>
                 {step === 1 && <div className="step-content step-c2">
-                    <Input TextName={"Nombre"} />
-                    <Input TextName={"Apellidos"} />
-                    <Input TextName={"E-mail de acceso"} />
-                    <Input TextName={"Contraseña"} />
-                    <Input TextName={"Nombre de la empresa"} />
+                    <Input 
+                        TextName={"Nombre"} 
+                        name={"nombre"}
+                        type={"text"}
+                        /* value={""}
+                        onChange={""} */
+                    />
+                    <Input 
+                        TextName={"Apellidos"} 
+                        name={"apellidos"}
+                        type={"text"}
+                        /* value={""}
+                        onChange={""} */
+                    />
+                    <Input 
+                        TextName={"E-mail de acceso"} 
+                        name={"email"}
+                        type={"email"}
+                        /* value={""}
+                        onChange={""} */
+                    />
+                    <Input 
+                        TextName={"Contraseña"} 
+                        name={"password"}
+                        type={"password"}
+                        /* value={""}
+                        onChange={""} */
+                    />
+                    <Input 
+                        TextName={"Nombre de la empresa"} 
+                        name={"nombreEmpresa"}
+                        type={"text"}
+                        /* value={""}
+                        onChange={""} */
+                    />
 
                 </div>}
                 {step === 2 && <div className="step-content step-c2">
@@ -47,22 +73,45 @@ export const StepperEmpresa = () => {
                         <Select TextName={"Estado"} styles="medium-select"/>
                     </div>
                     <Select TextName={"Ciudad"} styles="mt-4 medium-select"/>
-                    <TextArea TextName={"Dirección"} styles={"mt-4"}/>
+                    <TextArea 
+                        TextName={"Dirección"} 
+                        styles={"mt-4"}
+                        name={"direccion"}
+                        type={"text"}
+                        /* value={""}
+                        onChange={""} */
+                    />
                     <Select TextName={"Selecciona el sector"} styles="mt-5 is-fullwidth"/> 
                 </div>}
 
                 {step === 3 && <div className="step-content step-c3">
 
                     <Select TextName={"N° de trabajadores"}/>
-                    <Input TextName={"Ingresa link de Facebook de empresa"}/>    
-                    <Input TextName={"Ingresa link de Twitter de empresa"}/>   
+                    <Input 
+                        TextName={"Ingresa link de Facebook de empresa"}
+                        name={"linkFacebook"}
+                        type={"text"}
+                        /* value={""}
+                        onChange={""} */
+                    />    
+                    <Input 
+                        TextName={"Ingresa link de Twitter de empresa"}
+                        name={"linkTwitter"}
+                        type={"text"}
+                        /* value={""}
+                        onChange={""} */
+                    />   
                     
                     <CheckBoxTerms />
                     
                 </div>}
             </form>
 
-            <Button TextName={"Continuar después"} style={"mb-5"}/>
+            <Button 
+                TextName={"Continuar después"} 
+                style={"mb-5"}
+                // onClick={""}
+            />
             
             <div className="btnopc">
                 <button onClick={prevStep} disabled={step === 1} className="stepper-button button is-rounded isBlack">
@@ -71,7 +120,7 @@ export const StepperEmpresa = () => {
                 <button onClick={nextStep} disabled={step === 3} className={`stepper-button button is-rounded isBlack ${step === 3 ? 'd-none' : ''}`}>
                     Siguiente
                 </button>
-                <button disabled={step <= 2} className={`stepper-button button is-rounded isBlack ${step <= 2 ? 'd-none' : ''}`}>
+                <button disabled={step <= 2} type="submit" className={`stepper-button button is-rounded isBlack ${step <= 2 ? 'd-none' : ''}`}>
                     Registrarse
                 </button>
 

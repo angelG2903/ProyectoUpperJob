@@ -1,21 +1,19 @@
+import { ImagenRedonda, ButtonPeque } from "../../atoms";
+import { Plan, CardInformacion } from "../../molecules";
 import { Navbar } from "../../organisms/navBar/Navbar"
-import '../styles/perfilEmpresa.css';
-import img from'../../../assets/cardFernanda.svg';
-import { Plan } from "../../molecules/plan/Plan";
-import { CardInformacion } from "../../molecules/cardInformacion/CardInformacion";
-import { ImagenRedonda } from "../../atoms/imagenRedonda/ImagenRedonda";
-import { ButtonPequeño } from "../../atoms/buttonPequeño/ButtonPequeño";
+import imgenes from'../../../assets/imagenes';
+import './styles/perfilEmpresa.css';
 
 
 export const PerfilEmpresa = () => {
     return (
         <>
             <section className="margenes">
-                <Navbar/>
+                <Navbar isLogin={false}/>
                 
-                <ButtonPequeño TextName='Mis tarjetas'/>
+                <ButtonPeque TextName='Mis tarjetas'/>
 
-                <ImagenRedonda Image={img} TextName='Amazon'/>
+                <ImagenRedonda Image={imgenes.cardFernanda} TextName='Amazon'/>
                 <CardInformacion 
                     Title="Información"
                     TextName={

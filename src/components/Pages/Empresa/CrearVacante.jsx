@@ -1,11 +1,6 @@
-import { IconoArrow } from "../../atoms/icono/IconoArrow";
-import logoN from '../../../assets/UpperJob.svg';
-import '../styles/crearV.css';
-import { Input } from "../../atoms/input/Input";
-import { Select } from "../../atoms/select/Select";
-import { TextArea } from "../../atoms/textArea/TextArea";
-import { Button } from "../../atoms/button/Button";
-import footer from '../../../assets/footer.svg';
+import imagenes from '../../../assets/imagenes';
+import { IconoArrow, Input, Select, TextArea, Button } from "../../atoms";
+import './styles/crearV.css';
 
 export const CrearVacante = () => {
     return (
@@ -14,17 +9,17 @@ export const CrearVacante = () => {
                 <IconoArrow/>
 
                 <div className="log">
-                    <img src={logoN} alt="" />
+                    <img src={imagenes.UpperJob} alt="" />
                     <p>Crear vacante</p>
                 </div>
 
-                <Input TextName="Puesto"/>
-                <Select TextName="Género"/>
-                <Select TextName="Estado de procendencia"/>
-                <TextArea TextName="Skills"/>
-                <TextArea TextName="Descripción"/>
+                <Input TextName="Puesto" styles={"mb-4"}/>
+                <Select TextName="Género" styles={"is-fullwidth"}/>
+                <Select TextName="Estado de procendencia" styles={"mt-4 is-fullwidth"} />
+                <TextArea TextName="Skills" styles={"mt-4"}/>
+                <TextArea TextName="Descripción" styles={"mt-4"}/>
 
-                <div className="inp">
+                <div className="inp mt-4">
                     <label>Número de vacantes</label>
                     <input className="input is-rounded" type="number" />
                 </div>
@@ -32,8 +27,6 @@ export const CrearVacante = () => {
                 <Button TextName="Guardar"/>
 
             </section>
-
-            <img className='fot' src={footer}/>
 
         </>   
     )

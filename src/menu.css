@@ -54,11 +54,13 @@
         position: absolute;
         top: 0;
         left: 0;
-        bottom: 0;
+        /* bottom: 0; */
         width: 250px;
+        min-height: 100vh;
         background-color: #2C8ABE;
         padding: 1rem;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+        z-index: 1;
     }
 
     .nav.visible {
@@ -101,8 +103,8 @@
 
     .act-end {
         padding: 3px;
-        margin-top: 380px;
         border-radius: 5px;
+        margin-top: 350px;
     }
 
     .act-end:hover {

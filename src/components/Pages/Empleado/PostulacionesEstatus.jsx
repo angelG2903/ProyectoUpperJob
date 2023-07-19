@@ -1,26 +1,26 @@
+import { CardPostulanteEmpleado } from "../../molecules";
 import { Navbar } from "../../organisms/navBar/Navbar"
+import imagenes from "../../../assets/imagenes";
 import './styles/postulacionesEstatus.css';
-import img from '../../../assets/noPostular.svg';
-import { CardPostulanteEmpleado } from "../../molecules/cardPostulanteEmpleado/CardPostulanteEmpleado";
 
 export const PostulacionesEstatus = () => {
     return (
         <>
             <section className="margenes">
 
-                <Navbar/>
+                <Navbar isLogin={ false }/>
                 <h2 className="tit-post">Postulaciones</h2>
 
                 <CardPostulanteEmpleado 
                     TextName='Senior Software Enginer'
                     Text='Ciudad de México'
-                    Image={img}
+                    Image={imagenes.noPostular}
                 />
 
                 <CardPostulanteEmpleado 
                     TextName='Senior Software Enginer'
                     Text='Ciudad de México'
-                    Image={img}
+                    Image={imagenes.noPostular}
                 />
 
             </section>

@@ -1,15 +1,14 @@
-import { Search } from "../../atoms/search/Search";
-import { Select } from "../../atoms/select/Select";
-import { CardPostulantes } from "../../molecules/cardPostulantes/CardPostulantes";
+import { Search, Select } from "../../atoms";
+import { CardPostulantes } from "../../molecules";
 import { Navbar } from "../../organisms/navBar/Navbar"
-import '../styles/postulantes.css';
+import './styles/postulantes.css';
 
 export const Postulantes = () => {
     return (
         <>
             <section className="margenes">
 
-                <Navbar/>
+                <Navbar isLogin={ false }/>
 
                 <div className="contenedor">
                     <button className="button is-rounded mt-2 big btn2">Crear vacante</button>
@@ -20,7 +19,7 @@ export const Postulantes = () => {
                     <p className="ti2">Mis vacantes activas</p>
                 </div>
 
-                <Search TextName="Buscar vacantes"/>
+                <Search TextName="Buscar vacantes" />
                 <Select TextName="Habilidades"/>
 
                 <CardPostulantes TextName="Web Developer"/>
