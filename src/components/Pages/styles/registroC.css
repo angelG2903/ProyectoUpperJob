@@ -6,7 +6,7 @@
     height: 524px;
     border-radius: 15px;
     background: #FAFBFF;
-    box-shadow: 0px 2px 0px 0px ;
+    box-shadow: 1px 2px 2px 0.3px #00000077;
 }
 
 .title {

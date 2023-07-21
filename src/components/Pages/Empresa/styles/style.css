@@ -90,5 +90,22 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 4rem;
+    margin-top: 8rem !important;
+    margin: 1rem 1.5rem;
+}
+
+.inf1 {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .inf1 {
+        display: flex;
+        align-items: center;
+        margin-top: 6rem;
+        gap: 3em;
+    }
+    .inf {
+        display: none;
+    }
 }

@@ -5,11 +5,11 @@ export const MensajeAcceso = () => {
     return (
         <>
             <div className='img'>
-                <img src={imagenes.img5}/>
+                <img src={imagenes.img5} className='imgAcceso'/>
             </div>
 
             <div className='logo'>
-                <img src={imagenes.UpperJob} />
+                <img src={imagenes.UpperJob}  className='imgUppAcc'/>
             </div>
 
             <div className='text'>

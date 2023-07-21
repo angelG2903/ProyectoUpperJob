@@ -7,16 +7,21 @@ export const LoginEmpresa = () => {
   return (
     <>
         <section className="margenes">
+          <div className='responsiveLoginEmpresa'>
             <div className='imgs mb-5'>
-                <img src={imagenes.img4} width={280} alt="" className="mt-5" />
-                <img src={imagenes.UpperJob} width={120} alt="" className="mt-5" />   
+              <img src={imagenes.img4} alt="" className="mt-5 img4StyleLo" />
+              <img src={imagenes.UpperJob} alt="" className="mt-5 upperStyleLo" />   
             </div>
 
-            <FormLogin />
-            <ButtonGoogle SrcImg={imagenes.google}/>
-            <div className='forget'>
-                <p>Forget your password?</p>
+            <div className='content-btnFormLoginE'>
+              <FormLogin />
+              <ButtonGoogle SrcImg={imagenes.google}/>
+              <div className='forget'>
+                  <p>Forget your password?</p>
+              </div>
             </div>
+          </div>
+            
         </section>
     </>
   )

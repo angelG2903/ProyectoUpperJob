@@ -9,11 +9,13 @@ export const InformesButton = () => {
             <section className="margenes">
                 <Link to={"/"}> <IconoArrow/></Link>
                 
-                <p className="tit">
-                    Pedir informes
-                </p>
+                <div className="center-InformButt">
+                    <p className="tit">
+                        Pedir informes
+                    </p>
 
-                <FormInformes />
+                    <FormInformes />
+                </div>
                 
             </section>
             

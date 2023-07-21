@@ -15,7 +15,37 @@
     color: #02011E;
 }
 
-.inp {
-    width: 150px;
-    margin-bottom: 20px;
+
+.responsiveCrear-vaca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-cVacante {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+    .txtCVacante {
+        max-width: 25rem !important;
+        
+    }
+    .textarea{
+        min-width: 25rem !important;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .txtCVacante {
+        max-width: 30rem !important;
+        
+    }
+    .textarea{
+        min-width: 30rem !important;
+    }
+
+    .masGcVacante {
+        width: 30rem !important;
+    }
 }

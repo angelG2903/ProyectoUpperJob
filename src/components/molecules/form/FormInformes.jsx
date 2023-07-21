@@ -1,5 +1,5 @@
 import { Input, Select, TextArea, Button } from "../../atoms"
-
+import './style.css'
 
 export const FormInformes = ({onSubmit}) => {
   return (
@@ -29,9 +29,10 @@ export const FormInformes = ({onSubmit}) => {
             // onChange={""}
             // value={""}
           />
-          <Select TextName="Tipo de consulta"/>
+          <Select TextName="Tipo de consulta" styles="mt-4 is-fullwidth"/>
 
           <TextArea 
+            styles={"mt-4"}
             TextName="Dirección" 
             styleText={"textarea3"}
             name={"direccion"}
@@ -42,7 +43,7 @@ export const FormInformes = ({onSubmit}) => {
 
           <Button 
             TextName="Enviar" 
-            style={"mt-5"}
+            style={"mt-5 masgrandeInfo"}
             type={"submit"}
           />
       </form>

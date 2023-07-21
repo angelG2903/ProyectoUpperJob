@@ -2,7 +2,7 @@ import { Button } from "../../atoms/button/Button"
 import { Input } from "../../atoms/input/Input"
 
 
-export const FormLogin = ({ onSubmit }) => {
+export const FormLogin = ({ onSubmit}) => {
   return (
     <>
 

@@ -8,23 +8,25 @@ export const CrearVacante = () => {
             <section className="margenes">
                 <IconoArrow/>
 
-                <div className="log">
-                    <img src={imagenes.UpperJob} alt="" />
-                    <p>Crear vacante</p>
+                <div className='responsiveCrear-vaca'>
+                    <div className="log">
+                        <img src={imagenes.UpperJob} alt="" />
+                        <p>Crear vacante</p>
+                    </div>
+                    <form className='form-cVacante'>
+                        <Input TextName="Puesto" styles={"mb-4"}/>
+                        <Select TextName="Género" styles={"is-fullwidth"}/>
+                        <Select TextName="Estado de procendencia" styles={"mt-4 is-fullwidth"} />
+                        <TextArea TextName="Skills" styles={"mt-4"} styleText={"txtCVacante"}/>
+                        <TextArea TextName="Descripción" styles={"mt-4"} styleText={"txtCVacante"}/>
+                        
+                        <Input TextName="Número de vacantes" styles={"mt-4 mb-5"}/>
+                        
+
+                        <Button TextName="Guardar" style={"mt-5 masGcVacante"}/>
+                    </form>
+                    
                 </div>
-
-                <Input TextName="Puesto" styles={"mb-4"}/>
-                <Select TextName="Género" styles={"is-fullwidth"}/>
-                <Select TextName="Estado de procendencia" styles={"mt-4 is-fullwidth"} />
-                <TextArea TextName="Skills" styles={"mt-4"}/>
-                <TextArea TextName="Descripción" styles={"mt-4"}/>
-
-                <div className="inp mt-4">
-                    <label>Número de vacantes</label>
-                    <input className="input is-rounded" type="number" />
-                </div>
-
-                <Button TextName="Guardar"/>
 
             </section>
 

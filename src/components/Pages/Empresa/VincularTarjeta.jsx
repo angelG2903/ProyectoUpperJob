@@ -9,14 +9,17 @@ export const VincularTarjeta = () => {
 
             <IconoArrow/>
 
-            <div className='imgs mb-5'>
-                <img src={imagenes.UpperJob} width={120} alt="" className="mt-5" />   
-                <img src={imagenes.visaPay} width={280} alt="" className="mt-5" />
-                <h1 className='mt-3 textoSele'><b>Selecciona un método de pago</b></h1>
-            </div>
+            <div className='content-vincular'>
+              <div className='imgs mb-5'>
+                  <img src={imagenes.UpperJob} alt="" className="mt-5 logoUpVincular" />   
+                  <img src={imagenes.visaPay} alt="" className="mt-5 imgvistaPaVincular" />
+                  <h1 className='mt-3 textoSele'><b>Selecciona un método de pago</b></h1>
+              </div>
 
-            <Button TextName={"Vincula tu tarjeta"}/>
-            <Button TextName={"Pagar con "} style={"payP mt-3"} icon={<img src={imagenes.payPal} className='ml-2' alt=""/>}/>
+              <Button TextName={"Vincula tu tarjeta"}/>
+              <Button TextName={"Pagar con "} style={"payP mt-4"} icon={<img src={imagenes.payPal} className='ml-2' alt=""/>}/>
+            </div>
+            
 
         </section>
 

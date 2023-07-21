@@ -2,7 +2,7 @@ import './style.css'
 
 export const Select = ({ TextName, styles="is-fullwidth", name, onChange, value }) => {
   return (
-    <div className={`select is-rounded big ${ styles }`}>
+    <div className={`select is-rounded big selectrespons ${ styles }`}>
         <select 
           className='big'
           name={name}

@@ -16,25 +16,26 @@ function App() {
     <>
       <Routes>
 
-        <Route path="/" element={ <Menu /> }/>
+        {/* <Route path="/" element={ <Menu /> }/> */}
 
-        <Route path="MensajeAcceso" element={ <MensajeAcceso /> }/>
         <Route path="Modal" element={ <Modal /> }/>
+        <Route path="MensajeAcceso" element={ <MensajeAcceso /> }/>
         <Route path="registroCorreo" element={ <RegistroCorreo /> }/>
 
 
-        <Route path="ContratarPlan" element={ <ContratarPlan /> }/>
-        <Route path="LoginEmpresa" element={ <LoginEmpresa /> }/>
-        <Route path="misTarjetas" element={ <MisTarjetas /> }/>
-        <Route path="vincular" element={ <VincularTarjeta /> }/>
-        <Route path="registro/tarjeta" element={ <RegistroTarjeta /> }/>
-        <Route path="formulario/Empresa" element={ <FormularioEmpresa /> }/>
-        <Route path="informes" element={ <InformesButton /> }/>
-        <Route path="empresa" element={ <PrincipalEmpresa /> }/>
         <Route path="registro" element={ <RegistroEmpresa /> }/>
+        <Route path="LoginEmpresa" element={ <LoginEmpresa /> }/>
+        <Route path="informes" element={ <InformesButton /> }/>
+        <Route path="formulario/Empresa" element={ <FormularioEmpresa /> }/>
+        <Route path="CrearVacante" element={ <CrearVacante /> }/>
+        <Route path="vincular" element={ <VincularTarjeta /> }/>
+
+        <Route path="ContratarPlan" element={ <ContratarPlan /> }/>
+        <Route path="misTarjetas" element={ <MisTarjetas /> }/>
+        <Route path="registro/tarjeta" element={ <RegistroTarjeta /> }/>
+        <Route path="empresa" element={ <PrincipalEmpresa /> }/>
         <Route path="PerfilEmpresa" element={ <PerfilEmpresa /> }/>
         <Route path="MiPlanActivo" element={ <MiPlanActivo /> }/>
-        <Route path="CrearVacante" element={ <CrearVacante /> }/>
         <Route path="Postulantes" element={ <Postulantes /> }/>
         <Route path="PostulantesDetalles" element={ <PostulantesDetalles /> }/>
         <Route path="PostulantesF" element={ <PostulantesF /> }/>

@@ -4,9 +4,9 @@ export const Input = ({ TextName, styles, name, value, onChange, type }) => {
   return (
     <>
       <div className={`${styles}`}>
-        <label>{ TextName }</label> 
+        <h1>{ TextName }</h1> 
         <input 
-          className="input is-rounded big" 
+          className="input is-rounded big inputrespons" 
           type={type} 
           name={name}
           value={value}

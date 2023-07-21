@@ -24,7 +24,7 @@ export const Modal = () => {
                                     <div className="box">
                                         <i className="fa-solid fa-circle-check"></i>
                                         <h2>Se a registrado con éxito</h2>
-                                        <button className="button is-rounded is-fullwidth big btnB" onClick={closeModal}>Continuar</button>
+                                        <button className="button is-rounded is-Fullwiii big btnB" onClick={closeModal}>Continuar</button>
                                     </div>
                                 </div>
                             </div>

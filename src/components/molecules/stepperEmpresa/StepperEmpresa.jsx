@@ -37,6 +37,7 @@ export const StepperEmpresa = ({onsubmit}) => {
                         onChange={""} */
                     />
                     <Input 
+                        styles={"mt-4"}
                         TextName={"Apellidos"} 
                         name={"apellidos"}
                         type={"text"}
@@ -44,6 +45,7 @@ export const StepperEmpresa = ({onsubmit}) => {
                         onChange={""} */
                     />
                     <Input 
+                        styles={"mt-4"}
                         TextName={"E-mail de acceso"} 
                         name={"email"}
                         type={"email"}
@@ -51,6 +53,7 @@ export const StepperEmpresa = ({onsubmit}) => {
                         onChange={""} */
                     />
                     <Input 
+                        styles={"mt-4"}
                         TextName={"Contraseña"} 
                         name={"password"}
                         type={"password"}
@@ -58,6 +61,7 @@ export const StepperEmpresa = ({onsubmit}) => {
                         onChange={""} */
                     />
                     <Input 
+                        styles={"mt-4"}
                         TextName={"Nombre de la empresa"} 
                         name={"nombreEmpresa"}
                         type={"text"}
@@ -87,14 +91,16 @@ export const StepperEmpresa = ({onsubmit}) => {
                 {step === 3 && <div className="step-content step-c3">
 
                     <Select TextName={"N° de trabajadores"}/>
-                    <Input 
+                    <Input
+                        styles={"mt-4"} 
                         TextName={"Ingresa link de Facebook de empresa"}
                         name={"linkFacebook"}
                         type={"text"}
                         /* value={""}
                         onChange={""} */
                     />    
-                    <Input 
+                    <Input
+                        styles={"mt-4"} 
                         TextName={"Ingresa link de Twitter de empresa"}
                         name={"linkTwitter"}
                         type={"text"}
@@ -109,7 +115,7 @@ export const StepperEmpresa = ({onsubmit}) => {
 
             <Button 
                 TextName={"Continuar después"} 
-                style={"mb-5"}
+                style={"mb-5 masgrande-FEmpres"}
                 // onClick={""}
             />
             

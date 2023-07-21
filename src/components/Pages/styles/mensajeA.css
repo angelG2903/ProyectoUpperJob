@@ -1,7 +1,7 @@
 .img {
-    justify-content: center;
-    margin-top: 175px;
     display: flex;
+    justify-content: center;
+    margin-top: 80px;
 }
 
 .logo {
@@ -15,5 +15,34 @@
     margin-top: 25px;
     display: flex;
     font-size: 30px;
+    font-weight: 600;
     color: black;
+}
+
+.imgAcceso {
+    width: 262px;
+}
+
+.imgUppAcc {
+    width: 120px;
+}
+
+@media screen and (min-width: 600px) {
+    .imgAcceso {
+        width: 320px;
+    }
+    .imgUppAcc {
+        width: 150px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+   
+    .imgAcceso {
+        width: 450px;
+    }
+
+    .imgUppAcc {
+        width: 180px;
+    }
 }

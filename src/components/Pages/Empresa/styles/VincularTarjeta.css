@@ -6,3 +6,34 @@
 .textoSele {
     color: black;
 }
+
+.content-vincular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logoUpVincular {
+    width: 120px;
+}
+.imgvistaPaVincular {
+    width: 280px;
+}
+
+@media screen and (min-width: 600px) {
+    .logoUpVincular {
+        width: 150px;
+    }
+    .imgvistaPaVincular {
+        width: 320px;
+    } 
+}
+
+@media screen and (min-width: 1024px) {
+    .logoUpVincular {
+        width: 180px;
+    }
+    .imgvistaPaVincular {
+        width: 400px;
+    }
+}
