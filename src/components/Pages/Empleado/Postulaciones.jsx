@@ -8,10 +8,14 @@ export const Postulaciones = () => {
     <>
         <section className='margenes'>
             <Navbar isLogin={ false }/>
-            <h2 className='subtitle is-5 sub-pos'>Postulaciones</h2>
-            <ImagenRedonda Image={imagenes.noPostular}/>
-            <p className='text-pos'>Todavia no te has postulado en ninguna oferta</p>
-            <Button TextName='Buscar empleos'/>
+
+            <div className='content-postu'>
+              <h2 className='subtitle is-5 sub-pos'>Postulaciones</h2>
+              <ImagenRedonda Image={imagenes.noPostular}/>
+              <p className='text-pos'>Todavia no te has postulado en ninguna oferta</p>
+              <Button TextName='Buscar empleos'/>
+            </div>
+            
         </section>
     </>
   )

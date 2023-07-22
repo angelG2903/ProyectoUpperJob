@@ -73,10 +73,10 @@ export const StepperEmpresa = ({onsubmit}) => {
                 {step === 2 && <div className="step-content step-c2">
 
                     <div className="selects2">
-                        <Select TextName={"País"} styles="medium-select"/>
-                        <Select TextName={"Estado"} styles="medium-select"/>
+                        <Select TextName={"País"} styles="medium-select" selres=""/>
+                        <Select TextName={"Estado"} styles="medium-select" selres=""/>
                     </div>
-                    <Select TextName={"Ciudad"} styles="mt-4 medium-select"/>
+                    <Select TextName={"Ciudad"} styles="mt-4 medium-select" selres=""/>
                     <TextArea 
                         TextName={"Dirección"} 
                         styles={"mt-4"}

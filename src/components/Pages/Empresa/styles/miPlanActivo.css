@@ -5,3 +5,25 @@
     font-weight: 600;
     margin-bottom: 20px;
 }
+
+.content-planActi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btns-planA {
+    width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+    .btns-planA {
+        width: 25rem !important;
+    }
+}
+@media screen and (min-width: 1024px) {
+    
+    .btns-planA {
+        width: 21rem !important;
+    }
+}   

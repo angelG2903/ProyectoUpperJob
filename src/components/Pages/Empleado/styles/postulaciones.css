@@ -1,10 +1,15 @@
+.content-postu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .sub-pos {
     margin-top: 30px;
     font-weight: bold;
 }
 
 .text-pos {
-    width: 308px;
     color: black;
     margin-left: auto;
     margin-right: auto;

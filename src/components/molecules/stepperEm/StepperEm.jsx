@@ -40,6 +40,7 @@ export const StepperEm = ({ onSubmit }) => {
                         TextName={"Apellidos"} 
                         name={"apellidos"}
                         type={"text"}
+                        styles={"mt-4"}
                         /* value={""}
                         onChange={""} */
                     />
@@ -47,6 +48,7 @@ export const StepperEm = ({ onSubmit }) => {
                         TextName={"E-mail de acceso"}
                         name={"email"}
                         type={"email"}
+                        styles={"mt-4"}
                         /* value={""}
                         onChange={""} */
                     />
@@ -54,10 +56,11 @@ export const StepperEm = ({ onSubmit }) => {
                         TextName={"Número de teléfono"} 
                         name={"numero"}
                         type={"tel"}
+                        styles={"mt-4"}
                         /* value={""}
                         onChange={""} */
                     />
-                    <Select TextName={"Estado de procedencia"}/>
+                    <Select TextName={"Estado de procedencia"} styles={"mt-4 is-fullwidth"} />
 
                 </div>}
                 {step === 2 && <div className="step-content">
@@ -68,6 +71,7 @@ export const StepperEm = ({ onSubmit }) => {
                         TextName={"contraseña"}
                         name={"password"}
                         type={"password"}
+                        styles={"mt-4"}
                         /* value={""}
                         onChange={""} */
                     />    
@@ -76,6 +80,7 @@ export const StepperEm = ({ onSubmit }) => {
                         TextName={"Confirmar contraseña"}
                         name={"confirm"}
                         type={"password"}
+                        styles={"mt-4"}
                         /* value={""}
                         onChange={""} */
                     />   
@@ -105,9 +110,10 @@ export const StepperEm = ({ onSubmit }) => {
 
             <Button 
                 TextName={"Continuar despues"} 
-                style={"mb-5"} 
+                style={"mb-5 masGSteEmpleda"} 
                 // onClick={""}
             />
+            
             
             <div className="btnopc">
                 <button onClick={prevStep} disabled={step === 1} className="stepper-button button is-rounded isBlack">

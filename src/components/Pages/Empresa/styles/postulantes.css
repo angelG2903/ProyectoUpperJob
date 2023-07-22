@@ -1,18 +1,38 @@
 .contenedor {
-    display: flex;    
+    display: flex; 
+    justify-content: end;
+
+}
+
+.tam-SePos {
+    width: 100% !important;
+}
+
+.inputs-Postulantes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tamanioSea {
+    width: 60vw;
+}
+
+.tamanioSelect {
+    width: 60vw !important;
 }
 
 .btn2 {
     color: white !important;
     background: #0B131E;
-    margin-left: auto;
 }
 
 .ti1{
     display: flex;
+    justify-content: start;
     align-items: center;
-    margin-top: -20px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    
 }
 
 .ic1 {
@@ -25,16 +45,25 @@
     font-family: 18px;
 }
 
+
+.content-postuCard {
+    margin: 50px 0px;
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(280px, 1fr)
+    ) !important;
+    gap: 30px;
+    place-items: center !important;
+}
+
+
 .ca {
-    width: 326px;
+    width: 280px;
     height: 201px;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
     border-radius: 20px;
-    margin-bottom: 30px;
-    padding: 15px 0px 15px 0px;
+    padding: 15px;
     box-shadow: 3px 3px 5px 0px;
 }
 
@@ -86,7 +115,18 @@
 }
 
 .btnF2 {
-    margin-right: 10px;
     color: black !important;  
 }
+
+@media screen and (max-width: 599px) {
+    .d-noP{
+        display: none;
+    }
+}
+@media screen and (min-width: 600px) {
+    .d-nonePostu{
+        display: none;
+    }
+}
+ 
 

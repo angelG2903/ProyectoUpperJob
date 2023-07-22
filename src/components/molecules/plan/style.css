@@ -3,22 +3,24 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     overflow-y: auto;
-    margin-left: 25px;
-    margin-right: 25px;
     border-radius: 20px;
     margin-bottom: 40px;
     box-shadow: 0px 4px 4px 0px ;
+    min-width: 17rem;
+    max-width: 17rem;
 }
+
 
 .tituloh4 {
     font-weight: bold;
-    font-size: 25px;
+    font-size: 22px;
+    color: black;
     margin-bottom: 8px;
 }
 
 .texto-2 {
-    font-family: 14px;
+    font-size: 13px;
     font-weight: bold;
 }

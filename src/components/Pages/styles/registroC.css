@@ -39,3 +39,17 @@
     margin-top: 20px;
     width: 255px;
 }
+
+@media screen and (max-width: 370px) {
+    .registro {
+        width: 265px;
+    }
+
+    .f1 input {
+        width: 200px;
+    }
+    
+    .btn {
+        width: 200px;
+    }
+}

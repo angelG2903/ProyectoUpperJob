@@ -18,12 +18,20 @@ export const Postulantes = () => {
                     <i className="fa-solid fa-toggle-off fa-rotate-180 fa-2xl ic1"></i>
                     <p className="ti2">Mis vacantes activas</p>
                 </div>
+                
+                <div className="inputs-Postulantes">
+                    <Search TextName="Buscar vacantes" styles={"d-nonePostu tam-SePos"} />
+                    <Select TextName="Habilidades" styles="is-fullwidth d-nonePostu" selres="selectrespons" />
 
-                <Search TextName="Buscar vacantes" />
-                <Select TextName="Habilidades"/>
+                    <Search TextName="Buscar vacantes" styles={"d-noP"} inputSe={"tamanioSea"}/>
+                    <Select TextName="Habilidades" styles="d-noP" selres="" selecStyle={"tamanioSelect"}/>
+                </div>
 
-                <CardPostulantes TextName="Web Developer"/>
-                <CardPostulantes TextName="Web Developer"/>
+                <div className="content-postuCard">
+                    <CardPostulantes TextName="Web Developer"/>
+                    <CardPostulantes TextName="Web Developer"/>
+                    <CardPostulantes TextName="Web Developer"/>
+                </div>
 
             </section>
         </>

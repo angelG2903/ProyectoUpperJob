@@ -1,3 +1,5 @@
+
+
 export const CardPostulantes = ({TextName, onClickE, onClickD}) => {
     return (
         <>

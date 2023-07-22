@@ -12,3 +12,23 @@
 .tamNuC {
     width: 143px;
 }
+
+.seleChiqu {
+    /* width: 140px !important; */
+    width: 140px !important;
+}
+
+
+@media screen and (min-width: 600px) {
+    /* .text-tarjeta {
+        min-width: 25rem !important;
+        
+    } */
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .text-tarjeta {
+        min-width: 20rem !important;   
+    }
+}

@@ -10,18 +10,31 @@ export const PostulacionesEstatus = () => {
 
                 <Navbar isLogin={ false }/>
                 <h2 className="tit-post">Postulaciones</h2>
+                
+                <div className="content-gridPos">
+                    <CardPostulanteEmpleado 
+                        TextName='Senior Software Enginer'
+                        Text='Ciudad de México'
+                        Image={imagenes.noPostular}
+                    />
 
-                <CardPostulanteEmpleado 
-                    TextName='Senior Software Enginer'
-                    Text='Ciudad de México'
-                    Image={imagenes.noPostular}
-                />
-
-                <CardPostulanteEmpleado 
-                    TextName='Senior Software Enginer'
-                    Text='Ciudad de México'
-                    Image={imagenes.noPostular}
-                />
+                    <CardPostulanteEmpleado 
+                        TextName='Senior Software Enginer'
+                        Text='Ciudad de México'
+                        Image={imagenes.noPostular}
+                    />
+                    <CardPostulanteEmpleado 
+                        TextName='Senior Software Enginer'
+                        Text='Ciudad de México'
+                        Image={imagenes.noPostular}
+                    />
+                    <CardPostulanteEmpleado 
+                        TextName='Senior Software Enginer'
+                        Text='Ciudad de México'
+                        Image={imagenes.noPostular}
+                    />
+                </div>
+                
 
             </section>
         </>

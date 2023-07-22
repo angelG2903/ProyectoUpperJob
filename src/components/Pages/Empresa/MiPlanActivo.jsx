@@ -11,11 +11,14 @@ export const MiPlanActivo = () => {
 
                 <h2 className=" is-4 tit-plan">Plan activo</h2>
 
-                <Plan Title="$400" Text="Cancelar"/>
+                <div className="content-planActi">
+                    <Plan Title="$400" Text="Cancelar"/>
 
-                <Button TextName="Cambiar Plan"/>
-                <br />
-                <Button TextName="Renovar Plan"/>
+                    <div className="btns-planA">
+                        <Button TextName="Cambiar Plan"/>
+                        <Button TextName="Renovar Plan" style={"mt-4"}/>
+                    </div>
+                </div>
             </section>
         </>
     )

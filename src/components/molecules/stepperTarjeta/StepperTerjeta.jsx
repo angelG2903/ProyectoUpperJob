@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Input, Select, TextArea } from "../../atoms"
-import './style.css'
 import { Compra } from "../compra/Compra";
+import './style.css'
 
 export const StepperTarjeta = ({ onSubmit }) => {
 
@@ -60,8 +60,8 @@ export const StepperTarjeta = ({ onSubmit }) => {
 
                     <p className="mt-3">Fecha de vencimiento</p>
                     <div className="selects2">
-                        <Select TextName={"Mes"} styles="medium-select"/>
-                        <Select TextName={"Año"} styles="medium-select"/>
+                        <Select TextName={"Mes"} styles="" selecStyle={"seleChiqu"} selres=""/>
+                        <Select TextName={"Año"} styles="" selecStyle={"seleChiqu"} selres=""/>
                     </div>
                     <Select TextName={"Seleccionar banco"} styles="mt-5 is-fullwidth"/>
 
@@ -81,6 +81,7 @@ export const StepperTarjeta = ({ onSubmit }) => {
                     <TextArea 
                         TextName={"Dirección"} 
                         styles={"mt-5"}
+                        styleText={"text-tarjeta"}
                         name={"direccion"}
                         /* value={""}
                         onChange={""} */

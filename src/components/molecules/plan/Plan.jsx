@@ -18,6 +18,7 @@ export const Plan = ({ Title, Text}) => {
                 <br />
                 <Button 
                     TextName={Text} 
+                    isfull=""
                     style={'btn-plan'}
                     // onClick={""}
                 />

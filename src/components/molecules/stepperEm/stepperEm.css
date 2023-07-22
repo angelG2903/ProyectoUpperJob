@@ -70,3 +70,11 @@
   .d-none{
     display: none;
   }
+
+  
+
+@media screen and (min-width: 1024px) {
+    .masGSteEmpleda {
+        width: 25rem !important;
+    }
+}

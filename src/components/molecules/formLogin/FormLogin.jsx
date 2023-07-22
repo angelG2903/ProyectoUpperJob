@@ -1,13 +1,14 @@
 import { Button } from "../../atoms/button/Button"
 import { Input } from "../../atoms/input/Input"
-
+import './style.css'
 
 export const FormLogin = ({ onSubmit}) => {
   return (
     <>
 
         <form onSubmit={onSubmit}>
-            <Input 
+            <Input
+              inputRes="input-Flr" 
               TextName={"Correo"}
               name={"correo"}
               type={"email"}
@@ -15,6 +16,7 @@ export const FormLogin = ({ onSubmit}) => {
               // onChange={""}
             />
             <Input 
+              inputRes="input-Flr"
               TextName={"Contraseña"}
               name={"password"}
               // value={""}
