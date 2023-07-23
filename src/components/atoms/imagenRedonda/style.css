@@ -1,12 +1,15 @@
 .imag-f {
     text-align: center;
-    margin-top: 40px;
     font-size: 22px;
     color: black;
-    margin-bottom: 40px;
 }
 
 .img-2 {
-    height: 230px;
-    width: 250px;
+    width: 220px;
+}
+
+@media screen and (min-width: 600px) {
+    .img-2 {
+        width: 280px !important;
+    }
 }

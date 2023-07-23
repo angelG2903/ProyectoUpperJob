@@ -17,15 +17,15 @@ export const VerVacanteAceptado = () => {
                     Se ha enviado a su correo electrónico los pasos a seguir para su respectivo proceso
                 </div> */}
 
-                <div className="text-img">
-                    <Tag TextName='Aceptado' style='tag-color2'/>
+                <div className="">
                     <div className="txt-i">
                         <div className="txt-hp">
+                            <Tag TextName='Aceptado' style='tag-color2'/>
                             <h2 className="txt-title">Analista Programador</h2>
                             <p className="txt-p">Sistema Educativo Justo Sierra  Gustavo A. Madero, Ciudad de México DF</p>
                         </div>
                         
-                        <ImagenRedonda Image={imagenes.cardFernanda} style={'txt-image'} TextName='Amazon'/>
+                        <ImagenRedonda Image={imagenes.cardFernanda} img2="" style={'txt-image'} TextName='Amazon'/>
                     </div>
 
                     <div className="txt-cont">
@@ -38,15 +38,15 @@ export const VerVacanteAceptado = () => {
                         </p>
                         
                         <h2 className="txt-cont-tit">Requerimientos</h2>
-                        <ul>
+                        <ul className="ul-reque">
                             <li>Educación mínima: Educación superior - Licenciatura</li>
                             <li>1 año de experiencia</li>
                             <li>Edad: entre 25 y 45 años</li>
                         </ul>
+                    <Button TextName='Evaluar empresa' style={'btt-pos'}/>
                     </div>
                 </div>
 
-                <Button TextName='Evaluar empresa' style={'btt-pos'}/>
 
             </section>
         </>

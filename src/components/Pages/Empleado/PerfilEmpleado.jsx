@@ -11,22 +11,27 @@ export const PerfilEmpleado = () => {
             <section className="margenes">
                 
                 <Navbar isLogin={ false }/>
+
                 <ButtonPeque TextName='Editar perfil'/>
-                <ImagenRedonda Image={imagenes.cardFernanda} TextName={'Conchita Gutierrez'}/>
-                <CardInformacion 
-                    Title='Datos personales'
-                    TextName='
-                        Nombre: Juan Emanuel
-                        Apellidos: Arriaga Castillo
-                        Correo: juanarriaga@gmail.com
-                        Teléfono: 2241144852
-                        Ubicación: Azcapotzalco, Ciudad de México'/>
+
+                <div className="content-ImgInf-PEm">
+                    <ImagenRedonda Image={imagenes.cardFernanda} TextName={'Conchita Gutierrez'}/>
+                    <CardInformacion 
+                        Title='Datos personales'
+                        TextName='
+                            Nombre: Juan Emanuel
+                            Apellidos: Arriaga Castillo
+                            Correo: juanarriaga@gmail.com
+                            Teléfono: 2241144852
+                            Ubicación: Azcapotzalco, Ciudad de México'/>
+                </div>
 
                 <h2 className="sub-h2">Documentos adjuntos</h2>
 
-                <Button TextName='Visualizar CV'/>
-                <br />
-                <Button TextName='Visualizar Carta de presentacion'/>
+                <div className="content-btns-PerEmple">
+                    <Button TextName='Visualizar CV'/>
+                    <Button TextName='Visualizar Carta de presentacion'/>
+                </div>
                 
             </section>
         </>

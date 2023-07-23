@@ -1,19 +1,20 @@
-.carPost {
+.content-Postu-Deta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 30px;
-    margin-bottom: 30px;
 }
 
 .carImage1 {
-    background-color: #C9E6FC;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
 
 }
 
 .carImage1 img {
-    margin-right: auto;
     margin-bottom: 5px;
-    margin-left: auto;
-    height: 229px;
     width: 250px;
 }
 
@@ -23,19 +24,17 @@
 }
 
 .text-p {
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
     width: 292px;
     font-size: 16px;
     line-height: 19.36px;
 }
 
+
+
 .card-PerfilP {
-    width: 342px;
-    height: 450px;
-    padding: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 280px;
+    padding: 20px; 
     margin-bottom: 50px;
     border-radius: 15px;
     box-shadow: 0px 4px 4px 0px #2D3D8A87;
@@ -50,7 +49,7 @@
 }
 
 .icons-p {
-    width: 300px;
+    width: 280px;
     color: black;
     display: block;
     margin-top: 20px;
@@ -79,4 +78,25 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 18px;
+}
+
+
+.btns-content-PostuDe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+@media screen and (min-width: 680px) {
+    
+    .content-Postu-Deta {
+        flex-direction: row;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .carImage1 img {
+        width: 300px;
+    }
 }

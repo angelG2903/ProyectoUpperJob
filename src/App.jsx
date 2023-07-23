@@ -35,13 +35,13 @@ function App() {
         <Route path="misTarjetas" element={ <MisTarjetas /> }/>
         <Route path="PostulantesF" element={ <PostulantesF /> }/>
         <Route path="Postulantes" element={ <Postulantes /> }/>
+        <Route path="PerfilEmpresa" element={ <PerfilEmpresa /> }/>
+        <Route path="PostulantesDetalles" element={ <PostulantesDetalles /> }/>
         
 
 
 
 {/* diff */}
-        <Route path="PerfilEmpresa" element={ <PerfilEmpresa /> }/>
-        <Route path="PostulantesDetalles" element={ <PostulantesDetalles /> }/>
         <Route path="empresa" element={ <PrincipalEmpresa /> }/>
 {/* End */}
 
@@ -51,13 +51,13 @@ function App() {
         <Route path="registroEmpleado" element={ <RegistroEmpleado /> }/>
         <Route path="formulario/Empleado" element={ <FormularioEmpleado /> }/>
         <Route path="PostulacionesEstatus" element={ <PostulacionesEstatus /> }/>
-
-
-{/* diff */}        
         <Route path="PerfilEmpleado" element={ <PerfilEmpleado /> }/>
-        <Route path="VerVacanteAceptado" element={ <VerVacanteAceptado /> }/>
         <Route path="PrincipalEmpleado" element={ <PrincipalEmpleado /> }/>
-{/* End */}
+
+
+     
+        <Route path="VerVacanteAceptado" element={ <VerVacanteAceptado /> }/>
+
       </Routes>
       
       <Footer />

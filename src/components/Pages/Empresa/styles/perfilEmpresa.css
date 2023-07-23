@@ -5,3 +5,22 @@
     margin-bottom: 40px;
 }
 
+.content-PerEmpresa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-PEmpImgInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+@media screen and (min-width: 600px) {
+    .content-PEmpImgInfo {
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+}
