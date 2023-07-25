@@ -1,16 +1,47 @@
-.img {
-    margin-top: -45px;
+.content-img1-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img1-text {
+    width: 172px;
+}
+
+.content-sub-bu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-ti2-car2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-t-c-bu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conetnt-sub2-img2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img2-sub {
+    width: 270px;
 }
 
 .titleImg{
-    position: absolute;
     text-align: center;
     line-height: 35px;
-    margin-left: 25px;
     font-size: 30px;
-    height: 105px;
-    width: 256px;
-    top: 100px;
+    color: black;
+    max-width: 260px;
 }
 
 .subtitle {
@@ -33,6 +64,7 @@
     text-align: center;
     line-height: 19.36px;
     margin-bottom: 10px;
+    color: black;
 }
 
 .h2 {
@@ -45,19 +77,18 @@
 
 /* Registro Empresa */
 .car{
-    text-align: center;
-    height: 284px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 .cardF {
-    height: 100%;
-    width: 62%;
+    width: 180px;
 }
 
 .ic {
-    margin-left: auto;
     color: #0B131E;
-    margin-top: -45%;
     width: 125px;
 }
 
@@ -98,6 +129,90 @@
     display: none;
 }
 
+.margenes::before {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    border: solid 25px rgba(62, 198, 255, 0.2);
+    width: 250px;
+    height: 250px;
+    top: 0;
+    left: 0;
+    margin-left: -125px;
+    margin-top: 3rem;
+}
+
+
+@media screen and (max-width: 375px) {
+    .titleImg{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .car{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    
+}
+
+@media screen and (min-width: 680px) {
+    .content-img1-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .img1-text {
+        width: 280px;
+    }
+    
+    .img2-sub {
+        width: 450px;
+    }
+    
+    .subtitle {
+        font-weight: 600;
+    }
+    
+    .subtitle2 {
+        font-weight: 600;
+    }
+
+    
+    .cardF {
+        width: 250px;
+    }
+    
+    .ic {
+        color: #0B131E;
+        width: 150px;
+    }
+    
+    .ic i{
+        width: 20px;
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    
+    .ic p {
+        font-size: 20px;
+        font-weight: 600;
+        width: 115px;
+        color: black;
+    }
+ 
+    
+    
+}
+
+
+
 @media screen and (min-width: 1024px) {
     .inf1 {
         display: flex;
@@ -108,4 +223,42 @@
     .inf {
         display: none;
     }
+
+    .content-art1 {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .content-img1-text {
+        gap: 2px;
+        justify-content: end;
+        /* align-items: end; */
+    }
+
+    .img1-text {
+        width: 350px;
+    }
+
+    .content-sub-bu {
+        display: none;
+    }
+    .title2 {
+        display: none;
+    }
+
+    .conetent-art2 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    
+
+
+
+
+
 }
