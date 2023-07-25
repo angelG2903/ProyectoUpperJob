@@ -7,7 +7,7 @@ export const MisTarjetas = () => {
   return (
     <>
         <section className="margenes">
-
+            
             <Navbar isLogin="false"/>
             <div className="style-misTar">
               <Button TextName={"Agregar nuevo método de pago"} style={"mt-5"}/>
