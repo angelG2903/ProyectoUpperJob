@@ -13,7 +13,38 @@ export const StepperTarjeta = ({ onSubmit }) => {
 
     const prevStep = () => {
         setStep(step - 1);
-  }
+    }
+
+    const mes = [
+        { label: 'Enero', value: 'Enero'},
+        { label: 'Febrero', value: 'Febrero'},
+        { label: 'Marzo', value: 'Marzo'},
+        { label: 'Abril', value: 'Abril'},
+        { label: 'Mayo', value: 'Mayo'},
+    ]
+
+    const ages = [
+        { label: '23', value: '23'},
+        { label: '24', value: '24'},
+        { label: '25', value: '25'},
+        { label: '26', value: '26'},
+        { label: '27', value: '27'},
+        { label: '29', value: '29'},
+        { label: '30', value: '30'},
+    ]
+
+    const banco = [
+        { label: 'HSVC', value: 'HSVC'},
+        { label: 'Banco Azteca', value: 'Banco Azteca'},
+    ]
+    const estadoR = [
+        { label: 'Mexico', value: 'Mexico'},
+        { label: 'Puebla', value: 'Puebla'},
+    ]
+    const municipio = [
+        { label: 'Tochtepec', value: 'Tochtepec'},
+        { label: 'San Martin', value: 'San Martin'},
+    ]
 
   return (
     <>
@@ -60,10 +91,10 @@ export const StepperTarjeta = ({ onSubmit }) => {
 
                     <p className="mt-3">Fecha de vencimiento</p>
                     <div className="selects2">
-                        <Select TextName={"Mes"} styles="" selecStyle={"seleChiqu"} selres=""/>
-                        <Select TextName={"Año"} styles="" selecStyle={"seleChiqu"} selres=""/>
+                        <Select TextName={"Mes"} styles="" selecStyle={"seleChiqu"} selres="" optio={mes}/>
+                        <Select TextName={"Año"} styles="" selecStyle={"seleChiqu"} selres="" optio={ages}/>
                     </div>
-                    <Select TextName={"Seleccionar banco"} styles="mt-5 is-fullwidth"/>
+                    <Select TextName={"Seleccionar banco"} styles="mt-5 is-fullwidth" optio={banco}/>
 
                 </div>}
                 {step === 2 && <h1 className="mb-3"><b>2.- Dirección de facturación</b></h1>}
@@ -76,8 +107,8 @@ export const StepperTarjeta = ({ onSubmit }) => {
                         onChange={""} */
                         type={"number"}
                     />
-                    <Select TextName={"Estado de la republica"} styles="mt-5 medium-select is-fullwidth"/>
-                    <Select TextName={"Municipio"} styles="mt-5 medium-select is-fullwidth"/>
+                    <Select TextName={"Estado de la republica"} styles="mt-5 medium-select is-fullwidth" optio={estadoR}/>
+                    <Select TextName={"Municipio"} styles="mt-5 medium-select is-fullwidth" optio={municipio}/>
                     <TextArea 
                         TextName={"Dirección"} 
                         styles={"mt-5"}

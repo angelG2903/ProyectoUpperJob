@@ -5,6 +5,15 @@ import imagenes from "../../../assets/imagenes"
 import './styles/principalEmpleado.css'
 
 export const PrincipalEmpleado = () => {
+
+  const categoria = [
+    { label: 'Option', value: 'Option'}
+  ]
+
+  const pais = [
+    { label: 'Option', value: 'Option'}
+  ]
+
   return (
     <>
       <section className="margenes">
@@ -14,8 +23,8 @@ export const PrincipalEmpleado = () => {
           <div className="content-InpPrinEmple">
             <h1 className="title1 mt-4">Encuentra tu primer empleo</h1>
             <Search TextName="Search" styles={"sea-pEmsty"}/>
-            <Select TextName="Categoría" selres=""/>
-            <Select TextName="País" styles="mt-4 is-fullwidth" selres=""/>
+            <Select TextName="Categoría" selres="" optio={categoria}/>
+            <Select TextName="País" styles="mt-4 is-fullwidth" selres="" optio={pais}/>
             <Button TextName="Buscar" style={"mt-4"}/>
           </div>
           <img src={imagenes.imgPerson} className="img-cont-prinEmpl" alt="" />

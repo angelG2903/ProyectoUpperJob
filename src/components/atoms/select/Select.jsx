@@ -1,6 +1,9 @@
 import './style.css'
 
-export const Select = ({ TextName, styles="is-fullwidth", selres="selectrespons", name, onChange, value, selecStyle }) => {
+export const Select = ({ optio, TextName, styles="is-fullwidth", selres="selectrespons", name, onChange, value, selecStyle }) => {
+
+  // optio = JSON.parse(optio)
+
   return (
     <div className={`select is-rounded big  ${ styles } ${ selres }`}>
         <select 
@@ -8,9 +11,17 @@ export const Select = ({ TextName, styles="is-fullwidth", selres="selectrespons"
           name={name}
           onChange={onChange}
           value={value}
-        > 
-            <option>{ TextName }</option>
-            <option>With options</option>
+        >
+          <option>{ TextName }</option>
+          
+          {optio.map((option) => (
+            <option key={option.value} value={option.value}>
+              {option.label}
+            </option>
+          ))}
+          
+            
+            
         </select>
     </div>
   )

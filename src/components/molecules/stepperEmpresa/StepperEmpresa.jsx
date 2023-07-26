@@ -12,8 +12,29 @@ export const StepperEmpresa = ({onsubmit}) => {
 
     const prevStep = () => {
         setStep(step - 1);
-  }
+    }
 
+    const pais = [
+        {label: 'México', value: 'México'},
+        {label: 'Japon', value: 'Japon'},
+    ]
+
+    const estado = [
+        {label: 'Puebla', value: 'Puebla'},
+        {label: 'Cancún', value: 'Cancún'},
+    ]
+    const ciudad = [
+        {label: 'Ciudad de México', value: 'Ciudad de México'},
+        {label: 'Puebla', value: 'Puebla'},
+    ]
+    const sector = [
+        {label: 'Salud', value: 'Salud'},
+        {label: 'Publico', value: 'Publico'},
+    ]
+    const nTrabajadores = [
+        {label: '50 - 100', value: '50 - 100'},
+        {label: '100 - 200', value: '100 - 200'},
+    ]
   return (
     <>
         <div className="stepper-container">
@@ -73,10 +94,10 @@ export const StepperEmpresa = ({onsubmit}) => {
                 {step === 2 && <div className="step-content step-c2">
 
                     <div className="selects2">
-                        <Select TextName={"País"} styles="medium-select" selres=""/>
-                        <Select TextName={"Estado"} styles="medium-select" selres=""/>
+                        <Select TextName={"País"} styles="" selres="" optio={pais}/>
+                        <Select TextName={"Estado"} styles="" selres="" optio={estado}/>
                     </div>
-                    <Select TextName={"Ciudad"} styles="mt-4 medium-select" selres=""/>
+                    <Select TextName={"Ciudad"} styles="mt-4" selres="" optio={ciudad}/>
                     <TextArea 
                         TextName={"Dirección"} 
                         styles={"mt-4"}
@@ -85,12 +106,12 @@ export const StepperEmpresa = ({onsubmit}) => {
                         /* value={""}
                         onChange={""} */
                     />
-                    <Select TextName={"Selecciona el sector"} styles="mt-5 is-fullwidth"/> 
+                    <Select TextName={"Selecciona el sector"} styles="mt-5 is-fullwidth" optio={sector}/> 
                 </div>}
 
                 {step === 3 && <div className="step-content step-c3">
 
-                    <Select TextName={"N° de trabajadores"}/>
+                    <Select TextName={"N° de trabajadores"} optio={nTrabajadores}/>
                     <Input
                         styles={"mt-4"} 
                         TextName={"Ingresa link de Facebook de empresa"}

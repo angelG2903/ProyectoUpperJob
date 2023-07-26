@@ -12,7 +12,14 @@ export const StepperEm = ({ onSubmit }) => {
 
     const prevStep = () => {
         setStep(step - 1);
-  }
+    }
+
+    const estadoProce = [
+        { label: 'option', value: 'option'},
+    ]
+    const puesto = [
+        { label: 'option', value: 'option'},
+    ]
 
   return (
     <>
@@ -60,12 +67,12 @@ export const StepperEm = ({ onSubmit }) => {
                         /* value={""}
                         onChange={""} */
                     />
-                    <Select TextName={"Estado de procedencia"} styles={"mt-4 is-fullwidth"} />
+                    <Select TextName={"Estado de procedencia"} styles={"mt-4 is-fullwidth"} optio={estadoProce}/>
 
                 </div>}
                 {step === 2 && <div className="step-content">
 
-                    <Select TextName={"Puesto de trabajo"}/>
+                    <Select TextName={"Puesto de trabajo"} optio={puesto}/>
 
                     <Input 
                         TextName={"contraseña"}

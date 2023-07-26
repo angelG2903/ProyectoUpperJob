@@ -3,6 +3,18 @@ import { IconoArrow, Input, Select, TextArea, Button } from "../../atoms";
 import './styles/crearV.css';
 
 export const CrearVacante = () => {
+
+
+    const options = [
+        {label: 'masculino', value: 'masculino'},
+        {label: 'femenino', value: 'femenino'},
+    ]
+
+    const estadoP = [
+        {label: 'Puebla', value: 'Puebla'},
+        {label: 'Veracruz', value: 'Veracruz'},
+    ]
+
     return (
         <>
             <section className="margenes">
@@ -15,8 +27,10 @@ export const CrearVacante = () => {
                     </div>
                     <form className='form-cVacante'>
                         <Input TextName="Puesto" styles={"mb-4"}/>
-                        <Select TextName="Género" styles={"is-fullwidth"}/>
-                        <Select TextName="Estado de procendencia" styles={"mt-4 is-fullwidth"} />
+
+                        <Select TextName="Género" styles={"is-fullwidth"} optio={ options }/>
+
+                        <Select TextName="Estado de procendencia" styles={"mt-4 is-fullwidth"} optio={estadoP} />
                         <TextArea TextName="Skills" styles={"mt-4"} styleText={"txtCVacante"}/>
                         <TextArea TextName="Descripción" styles={"mt-4"} styleText={"txtCVacante"}/>
                         

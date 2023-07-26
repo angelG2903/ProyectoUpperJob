@@ -2,6 +2,11 @@ import { Input, Select, TextArea, Button } from "../../atoms"
 import './style.css'
 
 export const FormInformes = ({onSubmit}) => {
+
+  const tConsulta = [
+    {label: 'De seleccion', value: 'De seleccion'},
+  ]
+
   return (
     <>
       <form 
@@ -29,7 +34,7 @@ export const FormInformes = ({onSubmit}) => {
             // onChange={""}
             // value={""}
           />
-          <Select TextName="Tipo de consulta" styles="mt-4 is-fullwidth"/>
+          <Select TextName="Tipo de consulta" styles="mt-4 is-fullwidth" optio={tConsulta}/>
 
           <TextArea 
             styles={"mt-4"}
