@@ -1,0 +1,85 @@
+.tag-color2 {
+    background: #FF7324 !important;
+    /* position: absolute; */
+    margin-bottom: 12px;
+}
+
+.ic-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.txt-i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.txt-hp {
+    width: 210px;
+}
+
+.txt-title{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.txt-p{
+    color: black;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.txt-image {
+    width: 130px;
+}
+
+.txt-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.txt-cont-p {
+    color: black;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+.txt-cont-tit {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.btt-pos {
+    margin-top: 50px;
+}
+
+.ul-reque {
+    min-width: 250px;
+}
+
+@media screen and (min-width: 450px) {
+    .txt-cont-p {
+        width: 350px;
+    }
+}
+@media screen and (min-width: 600px) {
+    .txt-cont-p {
+        width: 60vw;
+    }
+    .txt-image {
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 1024px) {    
+    .txt-image {
+        width: 240px;
+    }
+}

@@ -1,0 +1,51 @@
+.log {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.log img {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.log p{
+    margin-bottom: 40px;
+    font-family: 18px;
+    font-weight: bold;
+    color: #02011E;
+}
+
+
+.responsiveCrear-vaca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-cVacante {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+    .txtCVacante {
+        max-width: 25rem !important;
+        
+    }
+    .textarea{
+        min-width: 20rem !important;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .txtCVacante {
+        max-width: 30rem !important;
+        
+    }
+    .textarea{
+        min-width: 20rem !important;
+    }
+
+    .masGcVacante {
+        width: 30rem !important;
+    }
+}

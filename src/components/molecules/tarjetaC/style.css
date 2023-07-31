@@ -1,0 +1,135 @@
+.content-card-mis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.credit-card-wrapper {
+    position: relative;
+}
+
+.credit-card {
+    /* min-width: 270px; */
+    max-width: 377px;
+    height: 220px;
+    color: #fff;
+    background: rgb(27, 27, 27);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 20px 25px;
+    position: relative;
+    font-family: 'poppins',sans-serif;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+    margin-bottom: 20px;
+}
+
+.credit-card .titlee {
+    text-transform: capitalize;
+    font-size: 15px !important;
+}
+
+.credit-card .chip {
+    max-height: 60px;
+    margin: 10px 0;
+}
+
+.credit-card .bank-name {
+    position: absolute;
+    right: 25px;
+    top: 20px;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.credit-card .card-number{
+    font-family: "orbitron",sans-serif;
+    letter-spacing: 7px;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.6);
+}
+
+.credit-card .validity {
+    text-transform: capitalize;
+    margin: 20px 0 25px;
+    display: flex;
+    align-items: center;
+}
+
+.validity span:first-child {
+    margin-right: 15px;
+    line-height: 1.2;
+    font-size: 14px;
+    text-align: right;
+}
+
+.validity span:nth-child(2) {
+    font-weight: 700;
+}
+
+.credit-card .holder-name {
+    font-weight: 300;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+.name-valid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 424px) {
+    .credit-card {
+        /* min-width: 270px; */
+        max-width: 280px;
+        height: 180px;
+        color: #fff;
+        padding: 15px 20px;   
+    }
+    
+    .credit-card .titlee {
+        font-size: 12px !important;
+    }
+    
+    .credit-card .chip {
+        max-height: 40px;
+        margin: 5px 0;
+    }
+    
+    .credit-card .bank-name {
+        right: 15px;
+        top: 12px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    .credit-card .card-number{
+        letter-spacing: 3px;
+    }
+    
+    .credit-card .validity {
+        margin: 15px 0 20px;
+    }
+    
+    .validity span:first-child {
+        margin-right: 10px;
+        font-size: 10px;
+    }
+    
+    .validity span:nth-child(2) {
+        font-weight: 200;
+    }
+    
+    .credit-card .holder-name {
+        letter-spacing: 2px;
+        font-size: 13px;
+    }
+    
+}
+
+
+
+

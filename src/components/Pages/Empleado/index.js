@@ -1,0 +1,7 @@
+export * from './FormularioEmpleado'
+export * from './PerfilEmpleado'
+export * from './Postulaciones'
+export * from './PostulacionesEstatus'
+export * from './PrincipalEmpleado'
+export * from './RegistroEmpleado'
+export * from './VerVacanteAceptado'

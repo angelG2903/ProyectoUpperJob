@@ -1,0 +1,9 @@
+.btn-targ {
+    display: flex;
+    justify-content: end;
+}
+
+.btn-1 {
+    background-color: black;
+    color: white;
+}

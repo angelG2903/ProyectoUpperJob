@@ -1,0 +1,49 @@
+.forget {
+    display: flex;
+    justify-content: end;
+    margin-top: 1rem;
+}
+
+.img4StyleLo {
+    width: 280px;
+}
+.upperStyleLo {
+    width: 120px;
+}
+
+
+.content-btnFormLoginE {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 600px) {
+    .img4StyleLo {
+        width: 320px;
+    }
+    .upperStyleLo {
+        width: 150px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .responsiveLoginEmpresa {
+        display: flex;
+        /* justify-content: space-around; */
+        justify-content: center;
+        gap: 5em;
+
+    
+    }
+    
+    .img4StyleLo {
+        /* width: 350px; */
+        width: 490px;
+    }
+
+    .upperStyleLo {
+        /* width: 180px; */
+        width: 180px;
+    }
+}

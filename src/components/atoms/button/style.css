@@ -1,0 +1,23 @@
+.isBlack {
+    height: 3em !important;
+    background-color: black !important;
+    color: white !important;
+}
+
+.isBlack:hover {
+    background-color: rgb(22, 22, 22);
+    color: rgb(228, 228, 228);
+}
+
+
+@media screen and (min-width: 600px) {
+    .is-fullwidth {
+        width: 25rem !important;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .is-fullwidth {
+        /* width: 150% !important; */
+        width: 21rem !important;
+    }
+}

@@ -1,0 +1,15 @@
+.input-Flr {
+    width: 90vw !important;
+}
+
+@media screen and (min-width: 600px) {
+    .input-Flr {
+        width: 25rem !important;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .input-Flr {
+        width: 21rem !important;
+    }
+}

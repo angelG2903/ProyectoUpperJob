@@ -1,0 +1,55 @@
+.registro {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 70px;
+    width: 324px;
+    height: 524px;
+    border-radius: 15px;
+    background: #FAFBFF;
+    box-shadow: 1px 2px 2px 0.3px #00000077;
+}
+
+.title {
+    margin-left: auto;
+    margin-right: auto;
+    width: 210px;
+    text-align: left;
+}
+
+.text {
+    line-height: 27px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.f1 p{
+    margin-left: 32px;
+}
+
+.f1 input {
+    background-color: #E1E6EE;
+    width: 255px;
+    margin-left: 30px;
+}
+
+.btn {
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 255px;
+}
+
+@media screen and (max-width: 370px) {
+    .registro {
+        width: 265px;
+    }
+
+    .f1 input {
+        width: 200px;
+    }
+    
+    .btn {
+        width: 200px;
+    }
+}

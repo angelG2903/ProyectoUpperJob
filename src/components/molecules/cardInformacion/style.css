@@ -1,0 +1,17 @@
+.card-info {
+    min-width: 272px;
+    max-width: 350px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.card-title1{
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+.card-con2 {
+    font-size: 16px;
+    margin-top: -10px;
+    color: black;
+}

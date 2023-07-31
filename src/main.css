@@ -1,15 +1,15 @@
-body {
+html {
+    height: 100%;
+}
+
+.bodyy {
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+}
+
+.margenes {
     margin: 1rem 1.5rem;
-}
-
-.isBlack {
-    background-color: black;
-    color: white;
-}
-
-.isBlack:hover {
-    background-color: rgb(22, 22, 22);
-    color: rgb(228, 228, 228);
 }
 
 .title1 {
@@ -18,36 +18,6 @@ body {
     text-align: center;
 }
 
-.navbar-burgerNone {
-    margin-left: 0;
-}
-
-.navbar-itemNone{
-    padding: 0.5rem 0rem;
-}
-
-.buttonPr {
-    background-color: #007CFF;
-    color: white !important;
-    margin-left: auto;
+footer {
     margin-top: auto;
-    margin-bottom: auto;
-}
-
-
-.se {
-    background-color: black;
-    border-radius: 50%;
-}
-
-@media (min-width: 1024px) {
-    .buttM {
-        display: none;
-    }
-}
-
-@media (max-width: 1024px) {
-    .buttMnone {
-        display: none;
-    }
 }

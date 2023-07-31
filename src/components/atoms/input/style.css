@@ -1,0 +1,17 @@
+.big {
+    height: 3rem;
+}
+.inputrespons {
+    width: 90vw !important;
+}
+
+@media screen and (min-width: 600px) {
+    .inputrespons {
+        width: 25rem !important;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .inputrespons {
+        width: 30rem !important;
+    }
+}
